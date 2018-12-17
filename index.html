@@ -269,6 +269,8 @@
 						</div>
 					</div>
 
+				<button class="collapsible">Open Collapsible</button>
+				<div class="content">
 					<div class="section">
 						<div id="title">9.14.2016</div>
 						<div id="news">
@@ -308,6 +310,7 @@
 							( <a href="https://vimeo.com/176701168">video</a> )
 						</div>
 					</div>
+				</div>
 <!--
 					<div class="section">
 						<div id="title">carillon :</div>
@@ -460,6 +463,21 @@
 		 } else {
 			 x.className = "topnav";
 		 }
+	 }
+
+	 var coll = document.getElementsByClassName("collapsible");
+	 var i;
+
+	 for (i = 0; i < coll.length; i++) {
+	   coll[i].addEventListener("click", function() {
+	     this.classList.toggle("active");
+	     var content = this.nextElementSibling;
+	     if (content.style.maxHeight){
+	       content.style.maxHeight = null;
+	     } else {
+	       content.style.maxHeight = content.scrollHeight + "px";
+	     } 
+	   });
 	 }
 	 </script>
 
