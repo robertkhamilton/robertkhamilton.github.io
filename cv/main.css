@@ -1,0 +1,191 @@
+
+body {
+	padding:20px;
+	border:1px solid #ccc;
+	font-size:8pt;
+	max-width:8.5in;
+	height:100%;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	position:relative;
+}
+a {text-decoration:none; font-size:.9em}
+
+div.header {
+	border:0px 0px 1px 0px;
+	border-color:#333;
+	overflow:auto;
+}
+
+.title {
+	font-size:2.4em;
+}
+
+#right {
+	float:right;
+}
+
+#name {
+	text-align:right;
+	font-size:3em;
+	padding:40px 0px 0px 0px;
+	margin:0;
+}
+
+#address {
+	margin:0;
+	padding:0;
+	text-align:right;
+	font-size:1.5em;
+}
+
+#divider {
+	margin:20px 0px 20px 0px;
+	border:0;
+	color:#ccc;
+	background-color:#ccc;
+	height:1px;
+}
+
+div.section {
+	padding-left:10px;
+	margin:10px 0px 10px 0px;
+}
+
+#activities p {
+  font-size:1.5em;padding-left:18px;margin:0px;
+}
+
+div.section#invitedtalks p{
+	font-size:1.5em;
+	margin:0px 0px 0px 20px;
+}
+
+#sectionheader {
+	font-size:1.7em;
+	padding:10px 0px 20px 0px;
+}
+
+#papersubsection {
+        font-size:1.5em;
+        padding:10px 0px 0px 10px;
+}
+
+#entry {
+	overflow:auto;
+	padding:0px 0px 0px 0px;
+}
+
+p.paragraph{
+	font-size:1.5em;
+	padding:0px 0px 0px 10px;
+}
+
+p.paragraph p{
+	font-size:1.5em;
+}
+
+#research_interests {
+
+}
+
+#school {
+	margin:0;
+	font-size:1em;
+}
+#date {
+	text-align:right;
+	min-height:40px;
+	margin:0;
+	font-size:1.5em;
+	line-height:1.2em;
+}
+
+#data {
+	text-decoration:bold;
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+	font-size:1.5em;	
+	line-height:1.2em;
+	min-height:40px;
+	margin:0px 0px 0px 40px;
+}
+
+#awarddate {
+	text-align:right;
+	margin:0;
+	font-size:1.5em;
+	line-height:1.2em;
+}
+
+#awarddata {
+	text-decoration:bold;
+	padding:0px 0px 0px 0px;
+	vertical-align:top;
+	font-size:1.5em;	
+	line-height:1.2em;
+	margin:0px 0px 0px 40px;
+}
+
+dl { 
+	float: left;
+	margin:0px 0px 10px 0px;
+	padding:0;
+} 
+
+dt { 
+	float: left; 
+	margin: 0; 
+	width:90px;	
+} 
+dd { 
+
+	vertical-align:top;
+	padding:0;
+	margin-top:0;
+	float:right;
+	width:580px;
+}
+
+p.paper{
+	font-size:1.5em;
+	padding:0px 0px 0px 60px;
+	text-indent:-40px;
+}
+
+p.research {
+	font-size:1.5em;
+	margin-left:20px;
+}
+
+p.composition {
+	font-size:1.5em;
+	margin-left:20px;
+}
+
+p.award {
+	font-size:1.5em;
+	margin-left:20px;
+}
+
+.section#performance p{
+	font-size:1.3em;
+	margin-left:20px;
+}
+
+li {
+	font-size:1.4em;
+}
+
+#download-pdf {font-size:.5em}
+
+#work-experience a {font-size:1.0em}
+#work-experience p {font-size: 0.9em}
+
+@media all
+{
+  .page-break  { display:none; }
+}
+
+.printshow {display:none}
