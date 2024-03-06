@@ -1,0 +1,333 @@
+<html>
+<head> 
+<title>Ensemble Nonlinear @ Rensselaer</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<meta http-equiv=cache-control content=no-cache,no-store,must-revalidate,proxy-revalidate> 
+<meta name="keywords" content="ensemble nonlinear, rensselaer, rpi, arts department, robert hamilton, computer music, ccrma, stanford, peabody, dartmouth"> 
+<meta name="revisit-after" content="15 days"> 
+<meta name="distribution" content="global"> 
+<meta name="expires" content="0"> 
+<meta name="robots" content="all"> 
+<meta name="copyright" content="(c) 2016 Rob Hamilton. All rights reserved."> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> 
+<link href="nonlinear.css" rel="stylesheet" type="text/css">
+<!--
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+-->
+</head>
+
+<!--
+<div id="top">
+	<div id="name">rob hamilton</div> 
+</div>
+-->
+<!--
+		<div class="menu">
+			<a href="javascript:void(0);" style="font-size:45px; color:white" onclick="myFunction()">&#9776;</a>			
+		</div>
+-->
+<div id="dark_header">		
+	<div id="dark_header_main">				
+		<div id="dark_header_left"></div>
+		<div id="dark_header_right">
+			<div id="title">ensemble nonlinear</div>		
+<!--			<div id="nav" style="float:right; width:300px; margin-top:-25px; color:#666666">about | media | events | people | syllabus</div> -->
+			<div id="header_images">
+				<img style="width:600px; margin-left:10px" src="images/enl_nonlinear.png">
+<!--				
+				<div id="header_image"><img src="images/enl_atlantis.png"></div>					
+				<div id="header_image"><img src="parrallelgenerativeheader.png"></div>					
+				<div id="header_image"><img src="images/enl_carillon.png"></div>				
+-->				
+			</div>	
+		</div>
+	</div>
+</div>	
+
+<div class="menu-header">
+	<ul class="topnav" id="myTopnav">
+<!--
+  	 	<li><a class="active" href="index.html">Home</a></li>
+	 	<li><a href="publications.html">Publications</a></li>
+  		<li><a href="https://mobile.twitter.com/robertkhamilton">Twitter</a></li>
+  		<li><a href="https://github.com/robertkhamilton">github</a></li>
+  	 	<li class="icon">
+    	  <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+  		</li>
+-->		
+	</ul>
+</div>
+	
+<div id="main">
+
+	<div id="header">
+	</div>	
+	
+
+<!--
+	<div id="left">
+		
+		<p><a href="publications.html">publications</a></p>
+		<p><a href="https://ccrma.stanford.edu/~rob/portfolio/#works">portfolio</a></p>
+
+		<p><a href="cv">cv</a></p>
+
+		<p>hamilr<span id="smaller">4 [</span>at<span id="smaller">]</span> rpi <span id="smaller">[</span>dot<span id="smaller">]</span> edu</p>
+		
+		<p style="height:10px"></p>
+		
+		<p style="width:100%"> 
+			<a href="https://twitter.com/robertkhamilton"><img style="width:25px; opacity:0.5" src="./images/tw.png"></a>
+		</p>
+		
+		<p style="width:100%; margin-top:40px"> 
+			<a href="https://github.com/robertkhamilton"><img style="width:25px; opacity:0.64" src="./images/github.png"></a>
+		</p>
+		
+		<br/>
+		
+		<div id="hashtags" style="float:right; line-height:1.1em; min-width:94px; color:#999; padding-top:60px">
+		<span style="float:left;clear:both"><a href="http://empac.rpi.edu/events/2016/fall/108-troubles-installation"><span id="smaller">#108</span>troubles</a></span><br/>
+		<span style="float:left;clear:both"><a href="https://ccrma.stanford.edu/~rob/portfolio/carillon/"><span id="smaller">#</span>carillon</a></span><br/>
+		<span style="float:left;clear:both"><a href=""><span id="smaller">#</span>alone<span id="smaller">+</span>easy</a></span><br/>
+		<span style="float:left;clear:both"><a href=""><span id="smaller">#</span>madbpm</a></span><br/>		
+		<span style="float:left;clear:both"><a href="https://ccrma.stanford.edu/~rob/portfolio/osccraft/"><span id="smaller">#</span>osccraft</a></span><br/>
+		<span style="float:left;clear:both"><a href="https://ccrma.stanford.edu/~rob/portfolio/echocanyon/"><span id="smaller">#</span>echocanyon</a></span><br/>
+		<span style="float:left;clear:both"><a href="https://ccrma.stanford.edu/~rob/portfolio/udkosc"><span id="smaller">#</span>udkosc</a></span><br/>
+		<span style="float:left;clear:both"><a href="https://ccrma.stanford.edu/~rob/portfolio/q3osc"><span id="smaller">#</span>q<span id="smaller">3</span>osc</a></span><br/>		
+		</div>
+		
+		<div id="hashtags" style="float:right; line-height:1.1em; min-width:93px; clear:both; margin-top:30px">
+		<span style="float:left;clear:both"><a href="https://ccrma.stanford.edu/~rob"><span id="smaller">@</span>ccrma</a></span><br/>
+		<span style="float:left;clear:both"><a href="http://www.smule.com"><span id="smaller">@</span>smule</a></span><br/>
+		<span style="float:left;clear:both"><a href="http://computermusic.org"><span id="smaller">@</span>icma</a></span><br/>
+		</div>
+	
+	</div>
+-->	
+	<div id="right">		 
+
+		<div id="about">
+
+			<div id="info" style="line-height:1.5em">
+					<p><b>Ensemble Nonlinear</b> is a new electronic performance ensemble for students at Rensselaer. Using a wide-array of audio and visual technologies, students create new musical works for the ensemble and perform them live in concert performance.</p>
+					<p>The class is open to both undergraduates and graduate students for either 1, 3 or 4 credits. Students enrolling for 3 (graduate) or 4 (undergraduate) credits will explore new technological means to compose interactive musical works for the ensemble to perform. Students taking the class for 1-credit will only be required to rehearse and perform in the ensemble.</p>					
+					<p>All students will learn topics related to musical composition and performance, software design and development, computer networking, sound design and synthesis and human-computer interaction such as:</p>
+					<p>
+						<ul>
+							<li>New Interfaces for Musical Expression</li>
+							<li>Network/Telematic performance</li>							
+							<li>Generative and Algorithmic Music</li>
+							<li>Virtual Musical Instruments</li>
+							<li>Live Coding</li>							
+						</ul>
+					</p>
+					<div style="min-height:25px"> </div>					
+					<p>For more information please contact Dr. Rob Hamilton ( hamilr4 [at] rpi [dot] edu)</p>
+					<div style="min-height:25px"> </div>					
+			</div>
+
+					<p id="section-title" style="background-color:#e6e6e6; padding: 10px">spring 2017</p>
+					<div class="section">
+						<div id="title"><em>tallisCycles</em></div> 
+						<div id="news">
+							<p> <a href="https://www.youtube.com/watch?v=ap6bIrgywG0">Voice 1</a>, <a href="https://www.youtube.com/watch?v=MWvtf9J4Msk">Voice 3</a>
+						</div>
+					</div>							
+
+					<div style="clear:both">
+	
+					<div class="section">
+						<div id="title">Coding</div> 
+						<div id="news">
+							<p> <a href="chuck.cs.princeton.edu">ChucK</a>, <a href="http://smelt.cs.princeton.edu/">SMELT</a </p>
+							<p><a href="https://puredata.info/downloads/pure-data">Pure Data</a>, <a href="tidalcycles.org">TidalCycles</a></p>
+							<p>GitHub @ RPI: <a href="https://git.hass.rpi.edu/nonlinear">https://git.hass.rpi.edu/nonlinear</a></p>
+						</div>
+					</div>							
+					<div class="section">
+						<div id="title">Links</div> 
+						<div id="news">
+							
+							<p><a href="http://slork.stanford.edu/">Slork</a> (Stanford): <a href="https://vimeo.com/1823556">Building</a>, <a href="https://vimeo.com/100624271">Twilight</a>, <a href="https://www.youtube.com/watch?v=N6Me8B7Wst8">Carillon</a>, <a href="https://vimeo.com/111596750">Search for Life</a>, <a href="http://www.gewang.com/publish/files/2009-icmc-slork.pdf">paper</a></p>
+							<p><A href="http://plork.princeton.edu/">Plork</a> (Princeton): <a href="https://vimeo.com/197854007">cliX</a>, <a href="https://vimeo.com/1823477">Fox News</a>, <a href="http://soundlab.cs.princeton.edu/publications/plork_icmc2006.pdf">paper</a>, <a href="http://www.mitpressjournals.org/doi/pdf/10.1162/comj.2008.32.1.9">paper: composing</a>, <a href="http://wiki.cs.princeton.edu/index.php/PLOrk_Rep">pieces</a></p>
+							<p><a href="http://www.tacit.kr/">Tacit Group</a> (Korea): <a href="https://vimeo.com/tacit">vimeo</a></p>
+						</div>
+					</div>							
+
+		</div>
+
+<!--
+					<p id="section-title">recent</p>
+					<div class="section">
+						<div id="title">9.14.2016</div> 
+						<div id="news">
+							<em><b>Carillon</b></em> was awarded "Best Piece: Americas Regional award" at ICMC 2016 in Utrecht, Netherlands. The work was performed at TivoliVredenburg's Hertz concert hall on Wed. evening, September 14. On that same day, our paper "Gesture-based Collaborative Virtual Reality Performance in Carillon" was presented as a talk.
+							<p style="margin-top:5px">( <a href="https://www.youtube.com/watch?v=_hxka3PJL34">video</a>, <a href="https://github.com/robertkhamilton/publications/blob/master/icmc2016_hamilton_platz.pdf">paper</a> )</p>
+						</div>
+					</div>							
+					
+					<div class="section">
+						<div id="title">9.2.2016</div> 
+						<div id="news">
+							<em><b>108 Troubles</b></em> for piano and wavefield speaker array was premiered at Rensselaer's Experimental Media and Performing Arts Center (<a href="">EMPAC</a>).
+							As an installation, the work ran for two weeks in EMPAC's Studio 1: Goodman Studio/Theater, followed by on September 2, a live performance of the work performed by pianist <a href="">Chryssie Nanou</a>.							
+						</div>
+					</div>
+					<div class="section">
+						<div id="title">8.6.2016</div> 
+						<div id="news">
+							<em><b>alone+easy</b></em> was performed at CUBEfest, a two-day festival celebrating VA Tech's new multi-channel sound space "The Cube" in the Moss Arts Center. 	
+						</div>
+					</div>							
+					
+					<div class="section">
+						<div id="title">7.13.2016</div> 
+						<div id="news">
+							At NIME 2016 in Brisbane, Shawn Lawson and I performed a digital version of <em><b>Owego System Trade Routes</b></em> using a new PD-based algorave patch. 
+							( <a href="https://vimeo.com/176701168">video</a> )
+						</div>
+					</div>					
+-->					
+<!--
+					<div class="section">
+						<div id="title">carillon :</div> 
+						<div style="">
+							vr musical performance work/installation <br/><br/>
+							videos: <a href="">slork</a>, <a href="">isea</a>, <a href="">seamus</a>, <a href="">stonybrook</a><br/>
+							paper: <a href="">icmc 2016</a>
+						</div>
+					</div>
+					
+						<div id="title">Sept. 2, 2016:</div> 
+						<div >
+							<em>108 Troubles</em> was premiered at Rensselaer's <br/>Experimental Media and Performing Arts Center (EMPAC), both as an open-form installation 
+						multi-channel performance/installation for piano + wavefield <br/><br/> 
+						</div>					
+					</div>	
+									
+					<div class="section">
+						<div id="title">alone+easy :</div> 
+						<div style="">
+							multi-channel laptop performance<br/>
+							(<a href="">video</a>) 
+						</div>
+					</div>					
+					<div class="section">
+						<div id="title">owego system&nbsp;:<br/> trade routes &nbsp;</div> 
+						<div style="">
+							laptop performance w/Shawn Lawson<br/>
+							(<a href="">video</a>) 
+						</div>
+					</div>					
+					
+					<div class="section">
+						<div id="title">madbpm :</div> 
+						<div>sonification + visualization of biochemical data </div>
+					</div>					
+				</div>
+
+				<div id="contact"></div>
+-->					
+		</div>
+		
+	</div>		
+	<div id="footer"></div>
+	
+</div>
+
+	<div id="dark">
+		<div id="dark-main">
+			<div id="dark-left"></div>	
+			<div id="dark-right">
+<!--
+				<div class="bottom-projects">
+					
+					<a href="http://empac.rpi.edu/events/2016/fall/108-troubles-installation">
+					<div class="bottom-project">						
+						<div class="cell" id="troubles">
+							<div id="title" style="color:black"><span id="smaller">108 T</span>roubles</div>
+						</div>
+						<div class="project-description">
+							<p style="color:white"><em><b>108 Troubles</b></em> (2016) 
+							<p>for piano and electronics, 40"</p>
+							<p id="double">performance / installation &nbsp; | &nbsp; <em>premiered 9/2/2016</em> </p>
+							<p>[ piano, wavefield array, chuck ] </p>
+						</div>
+					</div>
+					</a>
+										
+					<a href="https://ccrma.stanford.edu/~rob/portfolio/carillon/">											
+					<div class="bottom-project">					
+						<div class="cell" id="carillon">
+							<div id="title" style="color:black">carillon</div>
+						</div>
+						<div class="project-description">
+							<p style="color:white"><em><b>Carillon</b></em> (2015) 
+							<p>for virtual performer(s), 10"</p>
+							<p id="double">performance / installation &nbsp; | &nbsp; with Chris Platz &nbsp; | &nbsp; <em>premiered 6/2/2015</em></p>							
+							<p>[ unreal engine, oculus rift, leap motion, pure data, chuck ]</p>
+						</div>
+					</div>
+					</a>
+					
+					<a href="">											
+					<div class="bottom-project">					
+						<div class="cell" id="alone_easy">
+							<div id="title" style="color:black">alone <span id="smaller">+</span> easy</div>
+						</div>
+						<div class="project-description">
+							<p style="color:white"><em><b>alone <span id="smaller">+</span> easy</b></em> (2015) 
+							<p>for multi-channel speaker array, 13"</p>
+							<p id="double">premiered 2/2/2015 by <a href="http://sidelobe.org/events/2015/cantor">SideLObe</a></p>
+							<p>[ chuck ]</p>
+						</div>
+					</div>
+					</a>					
+						
+					<a href="https://ccrma.stanford.edu/~rob/portfolio/echocanyon/">
+					<div class="bottom-project">
+						<div class="cell" id="echo_canyon">
+							<div id="title" style="color:black"><span id="smaller">ECHO::C</span>anyon</div>
+						</div>
+						<div class="project-description">
+							<p style="color:white"><em><b>ECHO::Canyon</b></em> (2013) 
+							<p>for virtual performer</p>
+							<p id="double"><em>with Chris Platz &nbsp; </em></p>							
+							<p>[ udkosc, supercollider ]</p>
+						</div>
+					</div>					
+					</a>
+					
+					<a href="https://ccrma.stanford.edu/~rob/portfolio/osccraft/">
+					<div class="bottom-project">
+						<div class="cell" id="osccraft">
+							<div id="title" style="color:black">block.study</div>
+						</div>
+						<div class="project-description">
+							<p style="color:white"><em><b>block.study</b></em> (2015) 
+							<p>for virtual performer and osccraft</p>
+							<p id="double">[ minecraft, forge, chuck, osccraft ]</p>
+						</div>
+					</div>										
+					</a>					
+				</div>
+-->
+			</div>
+		</div>
+	</div>	
+	
+	<script>
+	function myFunction() {
+   	 var x = document.getElementById("myTopnav");
+		 if (x.className === "topnav") {
+			 x.className += " responsive";
+		 } else {
+			 x.className = "topnav";
+		 }
+	 }
+	 </script>	
+	 
+</html>
+		

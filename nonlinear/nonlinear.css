@@ -1,0 +1,681 @@
+	body {
+		background-repeat: repeat-y;
+		padding:0;
+		font-family: 'ArialMT', 'Arial', sans-serif;		
+		margin:0;
+	}
+
+	div#top{
+		background-color:#252525;			
+		min-height:150px;
+		color:white;	
+	}
+		
+	#smaller {
+		font-size:0.8em;
+	}
+	
+	a:link {
+	    text-decoration: none;
+		font-weight:bold;		 
+		 color:black;		 
+	}
+	a:visited {
+	    text-decoration: none;
+		font-weight:bold;		 
+		 color:black;		 
+	}
+	a:hover {
+		font-weight:bold;								 
+		 color:#666;		 		 
+	}
+	a:active {
+	    text-decoration: none;
+		font-weight:bold;		 
+		 color:black;		 	 		 
+	}		
+	div#main{	    		
+		overflow: hidden; 
+		position:relative;		
+		margin-bottom: 0px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		margin-top: 0px; position: relative; 
+		word-wrap: break-word;  		
+		background: rgb(255, 255, 255); 
+		text-align: left; 
+		width:800px;
+		min-height:400px;
+		padding-bottom:0px;	
+	}	
+
+	div#dark_header{
+		min-height:10px;		
+		height:290px;
+		width:100%;
+		background-color:#252525;		
+		background-color:white;				
+		z-index: 10;				
+
+	}
+	
+	div#dark_header_main{	    		
+		overflow: hidden; 
+		position:relative;		
+		margin-bottom: 0px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		margin-top: 0px; 
+		position: relative; 
+		word-wrap: break-word;  		
+		background: #252525; 
+		background-color:white;						
+		text-align: left; 
+		width:800px;
+		padding-bottom:0px;
+		background-image:url("images/___.png");		
+	}	
+		
+	div#dark_header_left{
+		margin-left:140px;
+		padding-top:1px;
+		padding-top:3px;	
+		padding-right:35px;	
+		text-align:right; 
+		margin-left:0px; 
+		margin-right:15px;
+		width:150px;
+		font-size:1.0em;	
+		font-variant: small-caps;		
+		position:absolute;
+		border-width:0 1 0px 0;
+		border-style:dotted;
+		border-color:#252525;	
+			
+	}	
+	
+	div#dark_header_right{
+		font-size:1.0em;			
+		text-align:top;
+		color:white;
+	}		
+	div#dark_header_right div#title{
+		margin-top:49px;		
+		font-size:2.8em;
+		font-variant: small-caps;
+		margin-left:38px;
+		color:black;
+	}
+	
+	div#dark_header a:link {
+	    text-decoration: none;
+		color: white;
+		font-weight:normal;						
+	}
+	
+	div#dark_header a:visited {
+	    text-decoration: none;
+		color: white;			
+		font-weight:normal;						
+	}
+	
+	div#dark_header a:hover {
+	   text-decoration: none;	
+		color: white;					 
+		font-weight:normal;				
+	}
+	
+	div#dark_header a:active {
+	   text-decoration: none;
+		color: white;			
+		font-weight:normal;							
+	}		
+	div#header_images {padding-left:40px;padding-top:10px;width:900;}
+	
+	div#header_images div{float:left;}	
+	
+	div#header_image img{width:260px}
+	
+	div#header{
+		min-height:10px;		
+		height:30px;
+		width:100%;
+	}
+
+	div#header div#name{
+		
+		float:left;
+		margin-top:-10px;
+		color:red;
+		overflow: visible;
+		z-index: 1;
+	}			
+	
+	div#header img{
+		width:28px;
+		float:right;		
+	}
+	
+	div#footer{
+      clear: both;
+		height:40px;
+	}
+	
+	div#main div#left{	    		
+		padding-top:39px;
+		padding-top:0px;		
+		padding-right:30px;	
+		float:left; 
+		text-align:right; 
+		margin-left:0px; 
+		margin-right:15px;
+		width:160px;
+		min-height:690px;	
+		font-size:1.0em;	
+		font-variant: small-caps;		
+		position:absolute;
+		border-width:0 1 0px 0;
+		border-style:dotted;
+		border-color:#ccc;
+		color:#252525;
+	}
+	
+	
+	div.left-grid {
+		background-color:red;
+		width:150px;
+		min-height:150px;
+		float:right;	
+		margin-top:25px;
+	}
+	
+	div.left-grid div{
+		background-color:green;
+		float:left;
+		width:50px;
+		height:50px;
+		
+	}
+		
+	div.left-grid div#carillon{
+		background-image: url("images/carillon_sunrise.png");
+      background-size: 70px 50px;
+      background-repeat: no-repeat;
+	}
+
+	div.left-grid div#osccraft{
+		background-image: url("images/osccraft.png");
+      background-size: 70px 50px;
+      background-repeat: no-repeat;
+	}
+	
+	}
+
+	div#left a:link {
+	    text-decoration: none;
+		color: black;
+	}
+	
+	div#left a:visited {
+	    text-decoration: none;
+		color: black;			
+	}
+	
+	div#left a:hover {
+	    text-decoration: none;	
+		font-weight:bold;				
+	}
+	
+	div#left a:active {
+	   text-decoration: none;
+		color: black;			
+	}	
+		
+	div#hashtags {
+			
+	}
+
+	div#hashtags a:link {
+	    text-decoration: none;
+		color: black;
+		font-weight:normal;						
+	}
+	
+	div#hashtags a:visited {
+	    text-decoration: none;
+		color: black;			
+		font-weight:normal;						
+	}
+	
+	div#hashtags a:hover {
+	    text-decoration: none;	
+		font-weight:normal;				
+	}
+	
+	div#hashtags a:active {
+	   text-decoration: none;
+		color: black;		
+		font-weight:normal;							
+	}	
+		
+	div#right{
+		font-size:1.0em;			
+		text-align:top;
+		float:left;
+		margin-left:-40px;
+		color:#252525;		
+		margin-top:42px;
+		margin-top:0px;		
+	}
+	
+	div#about{
+		margin-left:80px;
+		margin-top:0px;
+		float:left;			
+		text-align:justify;
+	}
+
+	div.publications {
+		float:left;			
+		min-width:100px;	
+		float:left;	
+
+		text-align:justify;
+		text-justify:inter-word;
+		line-height:1.3em;
+		margin-top:0px;		
+		margin-left:70px;
+		font-size:0.9em;	
+		padding-bottom:20px;		
+		padding-left:10px;
+		margin-top:-15px;
+		padding-top:0;
+
+	}	
+	
+	div.publications ol {
+		margin-left:0px;
+		padding-left:25px;
+	}
+
+	div.publications li {
+		padding-bottom:10px;
+	}	
+	
+	#info{
+		font-size:0.9em;		
+	}
+	
+	#classes{
+		font-size:0.9em;		
+	}
+	
+	#content{
+		font-size:0.9em;			
+	
+	}
+	#sections{
+		margin-top:30px;
+		
+	}
+	.section{
+		font-size:0.9em;	
+		clear:both;
+	}
+	.section div{
+		float:left;		
+		padding-bottom:20px;		
+	}
+	.section div#title{
+		margin-left:0px;
+		margin-right:10px;
+		text-align:right;		
+		min-width:80px;	
+		font-size:0.9em;
+		margin-top:1px;
+	}
+	.section div#news{
+		margin-left:10px;
+		text-align:left;		
+		min-width:100px;	
+		float:left;	
+		width:480px;
+		text-align:justify;
+		text-justify:inter-word;
+		line-height:1.3em;
+	}	
+	#section-title{
+		font-variant: small-caps;	
+		font-weight:bold;				
+		font-size:1.2em;
+		margin-top:30px;
+	}
+	div#recents{
+		float:left;
+      margin-left:80px;
+	}
+	
+	#recent-title{
+		font-variant: small-caps;	
+		font-weight:bold;				
+		font-size:1.2em;
+	}	
+	
+	div#recent{
+		float:left;
+		border-width:0 0 0px 0;
+		border-style:dotted;
+		border-color:#ccc;
+		padding-bottom:10px;
+		margin:0px 0px 10px 0px;		
+		font-size:0.8em;
+		width:100%;
+	}	
+
+	div#recent #last{
+		
+	}
+	
+	div#recent p{
+		margin-top:0;
+	}
+		
+	div#recent img{
+		width:120px;
+		margin-right:10px;		
+	}
+
+	div#recents div{
+		float:left;
+	}
+
+	div.cells{		
+		float:left;
+		width:100%;
+		margin-left:-100px;
+		margin-top:30px;
+	}
+	
+	div.cell{
+		height:120px;
+		width:220px;
+		border:1px solid #333333;
+		margin:5px;				
+		float:left;
+		padding:0px;
+		position:relative;
+		display: inline-block;		
+	}	
+	div.cell div#title{
+		margin:0;
+		padding:0 0 3 0;
+		border:0;
+		background-color:white;
+		opacity: 0.8;
+		text-align:center;
+		font-weight:400;
+		font-size:1.1em;
+		vertical-align:bottom;	
+		position: absolute; 
+		bottom: 10px; 
+		width:100%;
+		font-variant: small-caps;
+	}
+	
+	div.cell div#title a:link {
+	    text-decoration: none;
+		color: black;
+	}
+
+	div.cell div#title a:visited {
+	    text-decoration: none;
+		color: black;
+	}
+
+	div.cell div#title a:hover {
+	    text-decoration: none;	
+		font-weight:bold;	
+		color: black;
+	}
+
+	div.cell div#title a:active {
+	    text-decoration: none;
+		color: black;
+	}	
+		
+	div#osccraft{
+		background-image: url("./images/osccraft.png");	
+		background-size: 200%;
+	}
+
+	div#sonification{
+		background-image: url("https://ccrma.stanford.edu/~rob/portfolio/images/dialoghi.png");	
+	}
+
+	div#carillon{
+		background-image: url("images/carillon_sunrise.png");
+		background-size: 200%;	
+	}
+
+	div#troubles{
+		background-image: url("images/108.png");
+		background-size: 100%;	
+	}
+
+	div#echo_canyon{
+		background-image: url("images/echo_canyon.png");
+		background-size: 100%;	
+	}
+
+	div#alone_easy{
+		background-image: url("images/alone_easy.png");
+		background-size: 100%;	
+	}
+	
+	div#network{
+		background-image:url("https://ccrma.stanford.edu/~rob/images/inCLarge.jpg");
+	}
+	
+	div#dark{
+		background-color:#252525;
+		min-height:200px;
+	}
+
+	div#dark a:link {
+	    text-decoration: none;
+		 font-weight:normal;
+		color: white;
+	}
+	
+	div#dark a:visited {
+	    text-decoration: none;
+		 font-weight:normal;		 
+		color: white;
+	}
+	
+	div#dark a:hover {
+	    text-decoration: none;	
+		font-weight:normal;								 
+	}
+	
+	div#dark a:active {
+	    text-decoration: none;
+		 font-weight:normal;		 
+		color: white;
+	}		
+	div#dark-main{	    		
+		overflow: hidden; 
+		position:relative;		
+		margin-bottom: 0px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		margin-top: 0px; 
+		position: relative; 
+		word-wrap: break-word;  		
+		background: #252525; 
+		text-align: left; 
+		width:800px;
+		min-height:400px;
+		padding-bottom:0px;
+	}	
+		
+	div#dark-left{
+		margin-left:140px;
+		padding-top:1px;
+		padding-top:3px;	
+		padding-right:35px;	
+		text-align:right; 
+		margin-left:0px; 
+		margin-right:15px;
+		width:150px;
+		font-size:1.0em;	
+		font-variant: small-caps;		
+		position:absolute;
+		border-width:0 1 0px 0;
+		border-style:dotted;
+		border-color:#252525;
+		
+	}	
+	
+	div#dark-right{
+		font-size:1.0em;			
+		text-align:top;
+		min-height:300px;
+		margin-top:20px;
+	}	
+	
+	div.bottom-projects{
+		margin-left:70px;
+		min-width:800px;
+		min-height:300px;
+		margin-bottom:30px;
+	}
+	
+	div.bottom-project{
+		min-height:130px;
+		width:800px;
+		clear:both;
+		
+	}
+	
+	div.project-description{
+		float:left;
+		margin-left:30px;
+		margin-top:6px;
+		font-size:0.8em;	
+		width:400px;
+		color:#ccc;
+		line-height:1.1em;		
+	}
+	
+	div.project-description p{
+		line-height:0.5em;
+	}	
+	
+	p#double {
+		line-height:2.0;
+	}
+	
+	ul.topnav{
+		display:none;
+	}
+	
+	
+	@media only screen and (max-device-width: 480px) {
+	
+		div.menu {
+			display:block;
+			margin-top:0px;
+			float:left;
+			font-size:1.9em;
+		}	
+		
+		div#main{
+		width:800px;			
+
+		}
+		div#main div#left{
+			display:none;
+		}	
+	
+		div#right{
+			clear:both;			
+			font-size:1.0em;			
+			text-align:top;
+			margin-left:-75px;
+			color:#252525;		
+			margin-top:22px;			
+		}
+	
+		ul.topnav {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: black;
+		  display:block;
+		  margin-top:-30px;
+		}
+
+		ul.topnav li {
+			float: left;
+		}
+
+		ul.topnav li a {
+		  display: inline-block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  transition: 0.3s;
+		  font-size: 30px;
+		}
+
+	  ul.topnav li a:hover {background-color: #555;}
+
+	  ul.topnav li:not(:first-child) {display: none;}
+	  	  
+ 	  ul.topnav li.icon {
+ 	    float: right;
+ 	    display: inline-block;
+ 	  }	
+	  
+	  ul.topnav.responsive {position: relative;}
+	  ul.topnav.responsive li.icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  ul.topnav.responsive li {
+	    float: none;
+	    display: inline;
+	  }
+	  ul.topnav.responsive li a {
+	    display: block;
+	    text-align: left;
+	  }	  
+	}		
+	
+	@media screen and (max-width:680px) {
+	  ul.topnav li:not(:first-child) {display: none;}
+		ul.topnav li.icon {display: none;}
+		
+		div.menu {display:none;}		
+	}
+
+	@media screen and (max-width:680px) {
+	  ul.topnav.responsive {position: relative;}
+	  ul.topnav.responsive li.icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  ul.topnav.responsive li {
+	    float: none;
+	    display: inline;
+	  }
+	  ul.topnav.responsive li a {
+	    display: block;
+	    text-align: left;
+	  }
+	}	

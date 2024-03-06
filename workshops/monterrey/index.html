@@ -1,0 +1,213 @@
+
+
+<link rel="stylesheet" href="main.css" type="text/css" media="screen">
+<html>
+
+<head>
+<link href="main.css" rel="stylesheet" type="text/css"> 
+<link href="print.css" rel="stylesheet" media="print"> 
+
+<script type="text/javascript">
+  (function() {
+    var blinks = document.getElementsByTagName('blink');
+    var visibility = 'hidden';
+    window.setInterval(function() {
+      for (var i = blinks.length - 1; i >= 0; i--) {
+        blinks[i].style.visibility = visibility;
+      }
+      visibility = (visibility === 'visible') ? 'hidden' : 'visible';
+    }, 250);
+  })();
+</script>
+  
+</head>
+<body>
+<div class="course_header" style="text-align:center; margin-top:40px">
+	<h2>Designing Musical Games :: Gaming Musical Design</h2>
+	<h3>Summer Workshop</h3>
+	<h3>Tecnológico de Monterrey, Estado de México</h3>
+	<h3>Monday 6/18/2018 - Friday 6/22/2018</h3>
+	<h3>Instructor: Rob Hamilton, Ph.D.</h3>
+	<h4>e: hamilr4 [at] rpi [dot] edu</h4>
+	<h4>w: <a href="http://homepages.rpi.edu/~hamilr4/workshops/monterrey">http://homepages.rpi.edu/~hamilr4/workshops/monterrey</a></h4>
+
+	<h3 style="margin-top:50px"><b>COURSE SYLLABUS - Summer, 2018</b></h3>		
+</div>
+
+<div class="course_info">
+	<h4>ABOUT THE INSTRUCTOR</h4>
+	<p>IEEVR Profile (2017): <a href="https://www.youtube.com/watch?v=ZGMJ2iESVxA">https://www.youtube.com/watch?v=ZGMJ2iESVxA</a></p>
+</div>
+
+<div class="course_info">
+	<h4>COURSE DESCRIPTION</h4>
+	<p>One of the most exciting areas of music technology development is happening in the realm of gaming and interactive virtual space. Music and Sound Design play crucial roles in the design of gaming environments, narratives and flow. And as designers create ever more innovative game experiences featuring rich graphics, fast multiplayer networking and next-generation controllers, new techniques for creating immersive music and sound for games to complement and showcase these advances are not only possible but necessary.</p>
+	<p>This hands-on workshop will explore cutting edge techniques for building interactive sound and music systems for games and 2D/3D rendered environments. To better understand the link between virtual space and sound, participants will learn the basics of designing sound and composing music for interactive game spaces by designing and implementing rich musical games within the Unity and Unreal gaming engines. This workshop will require the ability and desire to code game logic and design game environments. Techniques for integrating sound and music within games including game-centric middleware tools like FMOD and WWISE, interactive sound synthesis and computer networking using Open Sound Control will all be explored.</p>
+	<p>Working in teams or on their own, students will design their own music-rich game experience, compose music, design sound material, and implement their own playable musical game experiences.</p>
+</div>
+
+<div class="course_info">
+	<h4>SHORT DESCRIPTION</h4>
+	<p>Students will explore the artistic role of music and sound in gaming by building their own interactive sound and music-rich games and 2D/3D rendered environments. Within the context of their own creative game projects, students will learn the basics of designing sound and composing music for interactive game spaces. Using workflow programming languages and software tools, students will program basic gaming interactions, link them to interactive audio software, and create a musical gaming experience.</p>
+</div>
+
+<div class=page-break></div>
+
+<div class="course_info">
+	<h4>LEARNING OUTCOMES</h4>
+	<ol style="width:700px">
+		Students who successfully complete this workshop will demonstrate...
+		<li>an understanding and appreciation of game design and musical creation through an awareness
+of the many disciplines underlying the field including: software design and programming, interaction design, listening skills, musical theory,
+musical acoustics, digital audio theory, and digital signal processing.</li>
+		<li>basic technical facility in the areas of game development, audio recording, editing, sound synthesis, software development and post production.</li>
+		<li>creativity and resourcefulness through the creation of musical game environments and composition of your own sonic projects</li>				
+	</ol>
+</div>
+
+<div class=page-break></div>
+
+<div class="course_schedule">
+		<h4>SOFTWARE DOWNLOADS:</h4>
+		<p>
+			Max/MSP (v.7): <a href="https://cycling74.com/downloads">https://cycling74.com/downloads</a><br/>
+			Pure Data (v.0.48-1): <a href="https://puredata.info/downloads/pure-data">https://puredata.info/downloads/pure-data</a><br/>
+			Purr Data (v.2.5.1): <a href="https://github.com/agraef/purr-data/releases">https://github.com/agraef/purr-data/releases</a><br/>
+			ChucK (v.1.4.0.0): <a href="http://chuck.cs.princeton.edu/release/">http://chuck.cs.princeton.edu/release/</a><br/>
+			Audacity: <a href="https://www.audacityteam.org/">https://www.audacityteam.org/</a><br/>
+		</p>
+		<hr/>
+		<p>
+			Chunity: <a href="https://ccrma.stanford.edu/~lja/chunity/">https://ccrma.stanford.edu/~lja/chunity/</a><br/>
+			HEAVY compiler: <a href="http://enzienaudio.com">http://enzienaudio.com</a>><br/>
+			WWISE: <a href="https://www.audiokinetic.com/products/wwise/">https://www.audiokinetic.com/products/wwise/</a><br/>
+		</p>
+		<hr/>
+		<p>
+			Unity: <a href="https://unity3d.com/get-unity/download">https://unity3d.com/get-unity/download</a><br/>
+			Unreal Engine: <a href="https://www.unrealengine.com/en-US/download">https://www.unrealengine.com/en-US/download</a><br/>
+		</p>
+</div>	
+
+<div class="course_schedule">
+	<h4>COURSE SCHEDULE:</h4>
+	<p>The <em>proposed</em> course topics and schedule will be as follows:</p>
+
+	<div class="week">
+		<div id="week"><b>Day 1:</b></div>
+		<div class="class">
+			<div id="date">Monday, 6/18</div>
+			<div id="content">
+				<p>Introduction: <b>Designing Musical Games :: Gaming Musical Design</b><br/>
+				- The role of sound and music in games; filmic influences; spectra of interactivity</p>
+				<p>Audio Languages Overview: Max/MSP</p>
+				<br/>
+				<p>Max/MSP: <a href="https://ccrma.stanford.edu/~rob/rpi/arts2020/max_tutorial.zip">Tutorial project</a>
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Day 2:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 6/19</div>
+			<div id="content">
+				<p>Game Engines Overview: Unity</p>
+				<p>Introduction to Unity: <a href="https://unity3d.com/learn/tutorials">tutorials</a></p>				
+				<p>Basics of sound in Unity: <A href="https://docs.unity3d.com/Manual/class-AudioClip.html">AudioClip</a>, <a href="https://docs.unity3d.com/Manual/class-AudioSource.html">Audio Source Documentation</a>, Listener<br/>	
+					Videos: <a href="https://unity3d.com/learn/tutorials/topics/audio/audio-listeners-sources?playlist=17096">Audio Listeners and Sources</a>, <a href="https://unity3d.com/learn/tutorials/modules/beginner/5-pre-order-beta/audiomixer-and-audiomixer-groups?playlist=17096">Audio Mixer</a>, <a href"https://unity3d.com/learn/tutorials/topics/audio/">more...</a><br/>
+					Manual Link: <a href="	https://docs.unity3d.com/Manual/Audio.html">Audio</a><br/>
+					<b>Roll-A-Ball</b> demo project (<a href="https://unity3d.com/learn/tutorials/projects/roll-ball-tutorial">tutorial</a>, <a href="https://ccrma.stanford.edu/~rob/rpi/arts2963/2017/Roll-a-ball-master_2017.zip">project</a>)		
+				</p>
+				
+				<br/>
+				
+				<p>Bridging the Gap with Open-Sound Control</p>
+				<p>
+				<b>Open Sound Control</b>: <a href="http://opensoundcontrol.org/introduction-osc">specification</a>, namespaces<br/>
+				<a href="https://github.com/valyard/OSCsharp">OSCsharp</a> C# classes, integration with Unity<br/>
+				<b>Roll-A-Ball</b> OSC demo project (<a href="https://ccrma.stanford.edu/~rob/rpi/arts2963/projects/roll-a-ball/">download</a>)
+				</p>				
+				<p>Projects: Inspiration and Design</p>		
+				<p>Unity Audio pt. II: <a href="https://unity3d.com/learn/tutorials/modules/beginner/5-pre-order-beta/audiomixer-and-audiomixer-groups?playlist=17096">AudioMixers and  AudioGroups</a, <a href="https://unity3d.com/learn/tutorials/topics/audio/exposed-audiomixer-parameters">exposing parameters</a>, filters/FX, <a href="https://unity3d.com/learn/tutorials/topics/audio/sound-effects-scripting?playlist=17096">scripting audio playback</a><br/>
+				<br/>
+				<a href="http://ccrma.stanford.edu/~rob/rpi/arts2963/2017/Projectiler.zip">Projectiler.zip</a>: collision + pitch and volume randomness, <a href="https://www.youtube.com/watch?v=5N-428vKwaE">tutorial</br>				
+				</p>					
+			</div>
+		</div>
+	</div>	
+		
+	<div class="week">
+		<div id="week"><b>Day 3:</b></div>
+		<div class="class">
+			<div id="date">Wednesday, 6/20</div>
+			<div id="content">
+				<p>
+					Game Engines Overview: Unreal Engine<br/>				
+					Unreal: Blueprint, Navigating the Interface, Downloading content<br/>
+					Using OSC with Blueprint: <a href="https://github.com/monsieurgustav/UE4-OSC">https://github.com/monsieurgustav/UE4-OSC</a>
+				</p>
+				<p>Projects: From Idea to Prototype</p>	
+				<p>
+					Unity Teapot: Alvin Lucier's <a href="https://www.youtube.com/watch?v=jC9Qr29IrsU">"Nothing is Real"</a> for game engine and Leap Motion<br/>
+					Leap Motion w/Unity (Orion/PC): <a href="https://github.com/leapmotion/UnityModules">https://github.com/leapmotion/UnityModules</a><br/>
+					Leap Motion Tracking V2 (Mac): <a href="https://developer.leapmotion.com/sdk/v2">https://developer.leapmotion.com/sdk/v2</a>
+				</p>
+				<p>Copying Unity Scenes into New Projects: <a href="https://answers.unity.com/questions/146551/how-to-copy-a-scene-to-a-new-unity-project.html">forum post</a></p>				
+				<p>FFT for Visualization in Unreal: <a href="https://forums.unrealengine.com/development-discussion/audio/1374107-fft-and-spectrum-analysis-using-the-new-audio-engine">forum post</a></p>
+				<p>Project Hack-a-Thon</p>
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Day 4:</b></div>
+		<div class="class">
+			<div id="date">Thursday, 6/21</div>
+			<div id="content">
+				<p>The Voice of Computer Music: Max Mathews, T-Pain and <blink>You</blink></p>
+				<p>Audio Languages Overview: Pure Data<br/>	
+				Rob's Tutorial patch: <a href="https://ccrma.stanford.edu/~rob/rpi/arts2963/2017/pd_tutorial.zip">pd_tutorial.zip</a><br/>			
+				Other Pure Data Tutorial Patches: <a href="https://ccrma.stanford.edu/~rob/rpi/pd_lab.zip">pd_lab.zip</a></p>			
+				<br/>		
+				<p>
+				FractOSC walkthrough: <https://youtu.be/v__SzSFkrOQ?t=211>https://youtu.be/v__SzSFkrOQ?t=211</a><br/>
+				LibPD: <a href="http://libpd.cc/">http://libpd.cc/</a><br/>
+				HEAVY: <https://enzienaudio.com>https://enzienaudio.com</a>
+				</p>					
+				<p>Projects: Iteration / Development</p>				
+			</div>
+		</div>
+	</div>	
+	
+	<div class="week">
+		<div id="week"><b>Day 5:</b></div>
+		<div class="class">
+			<div id="date">Friday, 6/22</div>
+			<div id="content">
+				<p>Hello ChucK: Introduction to the ChucK programming language<br/>
+				Hello Chunity: Embedding ChucK in Unity</p>
+				<p>Projects: Hack-a-Thon and FINAL PRESENTATIONS</p>				
+			</div>
+		</div>
+	</div>		
+
+	<div class="week">
+		<div id="week"><b>Day 6:</b></div>
+		<div class="class">
+			<div id="date">Saturday, 6/23</div>
+			<div id="content">
+				World Cup: <a href="https://www.fifa.com/worldcup/matches/match/300331549/#match-liveblog">Mexico vs. Korea</a>
+			</div>
+		</div>
+	</div>	
+
+
+
+
+</div>
+
+</div>
+</body>
+</html>
+ 

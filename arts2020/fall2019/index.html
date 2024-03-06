@@ -1,0 +1,1472 @@
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="main.css" type="text/css" media="screen">
+<html>
+
+<head>
+<link href="main.css" rel="stylesheet" type="text/css"> 
+<link href="print.css" rel="stylesheet" media="print"> 
+</head>
+<body>
+<div class="course_header" style="text-align:center; margin-top:40px">
+	<h2>ARTS 2020: Music and Technology I</h2>
+	<h3>Arts Department, Rensselaer Polytechnic Institute</h3>
+	<h3>Monday/Thursday, 10:00-11:50pm, West Hall 118</h3>
+	<h3>Instructor: Rob Hamilton, West Hall 114</h3>
+	<h3>Office Hours: Wednesdays 12:00 - 2:00, West Hall 114</h3>	
+	<h4>e: hamilr4 [at] rpi [dot] edu</h4>
+	<h4>w: <a href="http://homepages.rpi.edu/~hamilr4/arts2020">http://homepages.rpi.edu/~hamilr4/arts2020</a></h4>
+	<h4>lms: 1509_Computer Music [1509_ARTS_2020_01]</h4>
+<!--	<h4>w: <a href="https://www.arts.rpi.edu/~hamilton">https://www.arts.rpi.edu/~hamilton</a></h4>	 -->
+
+	<h3 style="margin-top:50px"><b>COURSE SYLLABUS - Fall, 2019</b></h3>		
+</div>
+
+<div class="course_info">
+	<h4>PREREQUISITE</h4>
+	<p>None</p>
+</div>
+
+<div class="course_info">
+	<h4>COURSE DESCRIPTION</h4>
+	<p>This course is an introduction to music and sound-art created through the use of computers and electronics. This is a studio course, and students will be expected to participate creatively in class by listening, taking an active role in discussions, and making your own work through significant, intelligent uses of technology. Although a component of this class includes learning how to use computers and other technological tools, this is not a "how-to-use technology" course. We will focus primarily on learning enough about technology to realize personal creative projects.</p>
+</div>
+
+<div class="course_info">
+	<h4>CATALOG DESCRIPTION</h4>
+	<p>Music composition taught in the context of modern computerized production methods. Technical topics include basic principles of computer sound generation, digital sound sampling, and the use of small computers for musical control of electronic instruments. Musical topics include a study of important musical works and compositional techniques of the 20th and 21st centuries. Student projects involve hands-on work on a variety of computer instruments and software. This course is a prerequisite for further creative work with Rensselaer's computer music facilities.</p>
+</div>
+
+<div class="course_info">
+	<h4>LEARNING OUTCOMES</h4>
+	<ol style="width:700px">
+		Students who successfully complete this course will demonstrate...
+		<li>an understanding and appreciation of computer music through an awareness
+of the many disciplines underlying the field including: listening skills, musical theory,
+musical acoustics, psycho-acoustics, software design and programming, digital audio theory, and digital signal
+processing.</li>
+		<li>basic technical facility in the areas of audio recording, editing, sound synthesis, software development
+and post production.</li>
+		<li>creativity and resourcefulness through the creation and composition of your own sonic projects</li>				
+	</ol>
+</div>
+
+<div class=page-break></div>
+
+<!--
+<div class="course_info">
+	<h4>ASSIGNMENTS AND GRADING</h4>
+	<p>There will be 8 musical projects, most of which are composition assignments. There will also be reading and listening assignments which will be discussed in class. In addition, students are expected to attend <b>three</b> concerts of of electronic or computer music during the semester, and to submit 2 page reviews of each concert. The grading for each assignment is as follows:
+	<ul style="margin-left: 20px">
+		<li>Project 1 (5 pts): Sonic Sketch - The Sounds of Your World</li>
+		<li>Project 2a (5 pts): EMPAC Recording 1 (10/1) - Solo Instrument</li>		
+		<li>Project 2b (5 pts): EMPAC Recording 2 (11/12) - Ensemble</li>				
+		<li>Project 3 (10 pts): Composition 1 - Fixed Media</li>
+		<hr style="margin:0; width:50%">
+		<li>Project 4 (5 pts): Software Instrument with Max/MSP </li>
+		<li>Project 5 (10 pts): Composition 2 - Real-time Performance with Max/MSP</li>
+		<hr style="margin:0; width:50%">		
+		<li>Project 6 (5 pts): ChucK "drum" machine</li>
+		<li>Project 7 (10 pts): Composition 3 - Interactive Performance and Composition with ChucK</li>
+		<hr style="margin:0; width:50%">		
+
+		<li>Project 7 (5 pts): Web-Audio Sketch</li>
+		<hr style="margin:0; width:50%">		
+
+		<li>Project 8 (20 pts): Final Project (free composition)</li>
+		<hr style="margin:0;width:50%">				
+		<li>Total points for musical projects: 75 points</li>
+	</ul>
+	<ul style="margin-left: 20px">
+		<li>Attendance/class participation: 15 pts</li>
+		<li>Reading/Listening Assignments: 10 points</li>	
+		<li>3 Concert Reviews: 10 points</li>
+	</ul>													
+	</p>
+</div>
+-->
+
+<div class="course_info">
+	<h4>EVALUATION</h4>
+	<p>Evaluation is based on the following: 
+	<ul style="margin-left: 20px">
+<!--			<li>* A written mid-term test on digital audio theory and concepts from class (10%)</li> -->
+			<li>Projects and compositions (75%)</li>
+			<li>Attendance/class participation (15%)</li>
+<!--			<li>Reading/Listening Assignments: (10%)</li> -->
+			<li>Concert reviews (10%)</li>
+		</ul>
+</div>
+
+<div class="course_info">
+	<h4>CLASS PARTICIPATION</h4>
+	<p>You will be required to present all of your musical assignments to the class, to show your work within the software environment you used to create it, and to engage the class in discussion of your work. When you are not presenting your own work, you need to be attentive to whoever is presenting, and to engage them in discussion of their work. <b>Failure to participate in class will lower your grade</b>.</p>
+</div>
+
+<div class="course_info">
+	<h4>ATTENDANCE</h4>
+	<p>You <b>must</b> attend class to succeed in this course. 
+		<ol>
+			<li>Since much of the class is focused on listening to and discussing work in class, attendance is <u>mandatory</u>.</li>
+			<li>** More then two unexcused absences will affect your grade, detracting 1/2 grade each additional 2 unexcused absences. **</li>
+			<li>Absences can only be excused by a letter from a medical doctor or from the Dean of Students' office.</li>			
+			<li>Late arrivals are <em>very</em> disruptive - continued late arrival will affect your grade.</li>
+			<li>It should go without saying but no use of mobile devices or personal computers during class time (except for as required by the coursework itself) is acceptable. Continued violations will be treated as an unexcused absence.</li>
+		</ol>
+	</p>
+</div>
+
+<div class=page-break></div>
+
+<!--
+<div class="course_info">
+	<h4>CONCERT REVIEWS</h4>
+	<p>
+	You are required to attend and document at least three musical concerts or sound-based events during the semester. You may attend concerts from EMPAC, the “iEAR Presents” musical events events, or any other appropriate events you would like to attend on or off campus. They <b>MUST</b> be events in which live performed and technology-rich music or sound is the focus. A soundtrack to a film, for example, does NOT count. <em>If you are unsure as to whether a concert will satisfy this requirement please speak to the instructor.</em></p>
+	<p>You will then need to submit via email a 2 page review of each performance which addresses both technical and aesthetic issues. Reviews should include both a description of the program, instrumentation (when appropriate), and a reasoned critique of the sonic materials and the performance. </p>
+	<p>Reviews should be completed <em>within three weeks</em> of the event being reviewed.</p>
+	<p>
+		Examples of Concert Reviews can be found here: <a href="concertreviews.html">How to Write a Concert Review</a>	
+	</p>
+</div>
+-->
+<div class="course_info">
+	<h4>STUDIO RESOURCES</h4>
+	<p>Throughout this course, you will make use of the resources in the Undergraduate Computer Music Studio (WH118). Students enrolled in the course will have access to the studio 24 hours a day, and should expect to spend several hours working in the studio each week. You will also have access to recording equipment in the equipment room, which you will be checking out from time to time in order to make field recordings.</p>
+	<p>When appropriate for an assignment, or to explore sound in general, we encourage the use of your own computer, electronic instruments, etc. Often times, smaller components of a large project can be done on your laptop or home studio facilities and then brought into the main studio to be mixed and mastered.</p>
+</div>
+
+<div class="course_info">
+	<h4 style="background-color:#EBEBEB">STATEMENT REGARDING ACADEMIC INTEGRITY</h4>
+	<p>Collaboration between students in this course is strongly encouraged. Likewise, students are encouraged—indeed, to some extent required—to exchange ideas, opinions and information . You are also encouraged to help each other in the lab and with performance, production, and presentation of composition projects.</p>
+<p>Plagiarism of any kind is in direct violation of University policy on Academic Dishonesty asdefined in the Rensselaer Handbook, and penalties for plagiarism can be severe. In this class you will be expected to attribute due credit to the originator of any ideas, words, sounds, or music which you incorporate substantially into your own work. This applies particularly to citation of sources for sonic "samples" included in your compositions.</p>
+<p>Submission of any assignment that is in violation of this policy may result in a grade of F for the assignment in question. Violation of this policy will be reported, as defined in the <em>Rensselaer Handbook</em></p>
+</div>
+
+<div class="course_info">
+	<h4>DISABILITY SERVICES FOR STUDENTS</h4>
+	<p>
+		Students requiring assistance are encouraged to contact Disability Services: http://doso.rpi.edu/dss to discuss any special accommodations or needs for this course.
+	</p>
+</div>
+<!--
+<div class="course_info">
+	<h4>EMPAC Recording Sessions</h4>
+	<p>
+		Through the generous support of EMPAC, our ARTS 2020 class this Fall will be given a unique opportunity to conduct two full-day recording sessions at EMPAC. Working with Todd Vos and the team of EMPAC engineers, we'll learn about the recording process through the hands-on recording of a solo performer (Saturday, October 1) and a small ensemble (Saturday, November 12). These sessions are <b>mandatory</b> and cannot be rescheduled. These sessions will take the place of other regularly scheduled class time.
+	</p>
+</div>
+-->
+<div class=page-break></div>
+
+<div class="course_schedule">
+	<h4>COURSE SCHEDULE:</h4>
+	<p>The <em>proposed</em> course topics and schedule will be as follows (take note of project due dates!). Based on class progress and interests, this schedule is subject to change. Special topics, guest lectures, supplemental reading, listening and additional assignments to be announced.</p>
+
+	<div class="week">
+		<div id="week"><b>Week 1:</b></div>
+		<div class="class">
+			<div id="date">Thursday, 8/29</div>
+			<div id="content">
+				Iannis Xenakis - <em>Concret PH</em> (1958) [<a href="https://khksounds.wordpress.com/2015/04/18/iannis-xenakis-concret-ph/">link</a>]
+				<br/><br/>
+				Gyorgy Ligeti - <em><a href="https://www.youtube.com/watch?v=71hNl_skTZQ">Artikulation</a></em> (1958)
+				<br/><br/>
+				Charles Dodge - Speech Songs (1973) <a href="https://rpi.naxosmusiclibrary.com/catalogue/item.asp?cid=NA043CD">Any Resemblance is Purely Coincidental</a> on <a href="https://www.naxos.com/">Naxos</a> Music Library (NOTE: you need to be either on campus networks or logged in via VPN. Lo-fi backup available @ <a href="https://www.youtube.com/watch?v=6UjhJfnJi_Y">https://www.youtube.com/watch?v=6UjhJfnJi_Y</a>) [<a href="http://www.newworldrecords.org/uploads/fileWSfoK.pdf">link</a>]				
+				<br/><br/>
+				T-Pain/The Lonely Island - <a href="https://www.youtube.com/watch?v=9iUjx4_X1qA">I'm On A Boat</a> (2009)
+				<br/><br/>
+				Holly Herndon - <a href="https://www.youtube.com/watch?v=r4sROgbaeOs"><em>Eternal</em> (2019)</a>
+				<br/><br/>
+				Conlon Nancarrow - <a href="https://www.youtube.com/watch?v=LnCfPE5zYTk"><em>Player Piano Study No.40a "Transcendental"</em></a>
+				<br/><br/>
+				Jean Claude Risset - <a href="https://youtu.be/Hloic1oBfug?t=4078">Duet for One Pianist</a> <a href="https://chrysinanou.wordpress.com">Chrysi Nanou</a> (piano) [<a href="https://chrysinanou.wordpress.com/portfolio/duet-for-one-pianist/">link</a>]
+				<br/><br/>				
+				<b>Homework</b>:
+				<br/>				
+				&nbsp; &nbsp;  Home Reading:  <a href="http://www.jstor.org/stable/1712380?origin=JSTOR-pdf&seq=1#page_scan_tab_contents">The Digital Computer as a Musical Instrument</a> by Max Mathews, <a href="https://ccrma.stanford.edu/~rob/rpi/resources/mathews-1963.pdf">off-campus link</a><br/>		
+				&nbsp; &nbsp;  Home Listening: <em>Presque Rien no. 1 (parts I, II and III)</em> by Luc Ferrari - <a href="http://rpi.naxosmusiclibrary.com/catalogue/item.asp?cid=INAG6017-26">http://rpi.naxosmusiclibrary.com/catalogue/item.asp?cid=INAG6017-26</a>
+
+			</div>
+		</div>		
+	</div>
+	
+	<div class="week">
+		<div id="week"><b>Week 2:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 9/3</div>
+			<div id="content">
+				Introduction: <b>What is Computer Music?</b> The History of Computers, Sound and Music<br/>
+				<b>"Voices" of Computer Music: from <a href="https://www.youtube.com/watch?v=0rAyrmm7vv0">The Voder</a>, to HAL to <a href="https://www.youtube.com/watch?v=D7B4RqhFpvY">I Am T-Pain</a></b>				
+				<br/>
+<a href="http://www.jstor.org/stable/1712380?origin=JSTOR-pdf&seq=1#page_scan_tab_contents">The Digital Computer as a Musical Instrument</a> by Max Mathews, <a href="https://ccrma.stanford.edu/~rob/rpi/resources/mathews-1963.pdf">off-campus link</a><br/>
+				<br/>
+				Introduction to <a href="https://chuck.cs.princeton.edu">Chuck</a>, <A href="http://audacityteam.org">Audacity</a><br/>
+				<br/>
+				<div style="padding: 10px; background-color:CCC; margin-bottom:20px">
+					History of the development of UNIX and Bell Labs: <a href="https://arstechnica.com/gadgets/2019/08/unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/">Ars Technica link</a>
+				</div>
+				<br/>
+			</div>
+			<br/>
+			<div id="date">Thursday, 9/5</div>
+			<div id="content">
+				<b>Composing with Sound:</b> Musique Concrete, Soundscapes and fixed media. <br/>
+				&nbsp; &nbsp;  Listening: <em>Presque Rien no. 1 (parts I, II and III)</em> by Luc Ferrari - <a href="http://rpi.naxosmusiclibrary.com/catalogue/item.asp?cid=INAG6017-26">http://rpi.naxosmusiclibrary.com/catalogue/item.asp?cid=INAG6017-26</a>
+				<br/><br/>
+				Listening (class): <em><a href="http://rpi.naxosmusiclibrary.com/catalogue/item.asp?cid=INAG6027-29">Etude aux chemins de fer</a></em> by Pierre Schaeffer
+				<br/><br/>
+				Listening (class): <em>Pre-Composition</em> by <a href="https://www.ted.com/talks/mark_applebaum_the_mad_scientist_of_music?language=en#t-75509">Mark Applebaum</a>
+				<br/>
+				<b>Representing Sound and Music</b>: Time and Frequency, Analog-to-digital representations<br/>
+				<br/>
+				Pure Data: Introduction to PD (hands-on):<br/>
+				<br/>
+<!--				 - basic operation, synthesis, subpatches, abstractions, externals, logic -->
+				Pure Data Tutorial Patches: <a href="https://ccrma.stanford.edu/~rob/rpi/pd_lab.zip">pd_lab.zip</a>				
+				<br/>
+				Ultra-mega-ok-pd-tutorial-patch: <a href="https://ccrma.stanford.edu/~rob/rpi/arts2963/2017/pd_tutorial.zip">pd_tutorial.zip</a><br/>				
+				<br/>
+<!--				Recording Sound: History and Practice of Recorded Media<br/> -->
+				<b>Homework</b>:
+				<br/>				
+				&nbsp; &nbsp; READING (Assigned): <a href="http://www.quietamerican.org/links_diy-rec_tips.html">Recording in the Field by Aaron Ximm</a><br/>
+				&nbsp; &nbsp; READING (Assigned): <a href="http://artsites.ucsc.edu/EMS/Music/tech_background/TE-20/teces_20.html">How Microphones Work</a><br/>
+			</div>
+		</div>
+	</div>
+		
+	<div class="week">
+		<div id="week"><b>Week 3:</b></div>
+		<div class="class">
+			<div id="date">Monday, 9/9</div>
+			<div id="content">
+				Cory Ryan: <em><a href="http://coryryancomposer.com/portfolio/split-tree-wintergarden/">Split Tree [Wintergarden]</a></em> for saxophone orchestra and fixed media
+				<br/><br/>
+				READING: <a href="http://www.quietamerican.org/links_diy-rec_tips.html">Recording in the Field by Aaron Ximm</a><br/>
+				READING: <a href="http://artsites.ucsc.edu/EMS/Music/tech_background/TE-20/teces_20.html">How Microphones Work</a><br/>
+				<br/>
+				Field Recording Exercise - Record the following:<br/><br/>
+					<ul>
+						<li>one sound "from Nature"</li>
+						<li>one sound that is inherenty "man-made"</li>
+						<li>one sound that is short</li>
+						<li>one sound that is long</li>
+						<li>one sound that is loud</li>
+						<li>one sound that is quiet</li>
+					</ul>
+				<br/>
+				
+				<b>In-class Recordings:</b>
+				<br/>
+				<br/>
+				<ul>
+					<li>Copy all files to your laptop</li>
+					<li>Create a simple text file with a short description of each file (e.g. “1.wav = Sound of a duck near Sage Labs”)</li>
+					<li>Put your names on the doc.</li>
+					<li>Upload files and doc to a Share drive (e.g. Google Drive, Box, etc)</li>
+					<li>Send me a link to download your stuff (hamilr4@rpi.edu)</li>					
+					<li>Delete all files from the recorder.</li>
+				</ul>
+	
+				<b>Homework</b>:
+				<br/>				
+				&nbsp; &nbsp; Homework (Listening): Hildegard Westerkamp, <em><A href="https://www.hildegardwesterkamp.ca/sound/comp/2/talking/">Talking Rain</a></em><br/>
+				&nbsp; &nbsp; Homework (Assigned): Upload your files to a shared directory (Google Drive, Box, RPI Share) along with a text file describing and naming each file. Send me and your team a link.<br/>
+				<br/>			
+			</div>
+			
+			<div id="date">Thursday, 9/12</div>
+			<div id="content">
+				Download Recordings:
+				<ul>
+					<li><a href="https://homepages.hass.rpi.edu/hamilr4/arts2020/2019/fieldrecordings/">In-class Field Recordings</a></li>
+				</ul>				
+				History of recording technologies, basics of audio formats, compression, loudness, <A href="https://www.youtube.com/channel/UCi1mYtUWs0JRkPl6bNVRL_Q">John Mayer</a>
+					<br/>
+				Lecture slides: <a href="recording.pdf">.pdf</a>				
+				<br/>
+				Microphones 101: <a href="http://artsites.ucsc.edu/EMS/Music/tech_background/TE-20/teces_20.html">How Microphones Work</a><br/>
+				Working with Microphones in the Studio, AVID I/O<br/>
+				* condensor vs dynamic microphones<br/>
+				* Compression, Limiting<br/>
+				
+				Audacity: Basic Features and Editing overview<br/>
+				<br/>
+				Pro Tools: Getting started, basic editing and features.<br/>		
+				<br/>
+				Effects/Processing in Audacity and Pro-Tools<br/>
+				Exporting projects, file formats<br/>			
+				<br/>				
+				<b>Homework</b>:
+				<br/>				
+				&nbsp; &nbsp; Homework (Reading): Hildegard Westerkamp <a href="hildegardwesterkamp.ca/writings/writingsby/?post_id=15&title=linking-soundscape-composition(1)-and-acoustic-ecology">"Linking Soundscape Composition and Acoustic Ecology"</a><br/><br/>
+<!--				<a href="assignments.html#assignment2">Assignment #2: <em>Found-sound Sketch</em> w/visual score/photos (Due 2/8)</a>	-->
+				&nbsp; &nbsp; <a href="assignments.html#assignment1">Assignment #1 (Project): <em>Found-sound Sketch/Radio Play</em> w/visual score/photos (Due 9/25)</a><br/>
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 4:</b></div>
+		<div class="class">
+			<div id="date">Monday, 9/16</div>
+			<div id="content">			
+				Amanda Palmer's '<a href="https://www.youtube.com/watch?v=iD3kOxZ_gak">Idioteque</a><br/>
+				Paul Lanksy <a href="https://www.youtube.com/watch?v=7WL0J3kJEmk">Night Traffic</a>, <a href="http://paul.mycpanel.princeton.edu/mild_und_leise.mp3">Mild und Leise<a/><br/>
+				Radiohead's <a href="https://en.wikipedia.org/wiki/Idioteque">Idioteque</a> (<a href="https://www.youtube.com/watch?v=AWtn4Kt05_Y">video</a>), <a href="http://www.whosampled.com/sample/3510/Radiohead-Idioteque-Paul-Lansky-Mild-Und-Leise/">Lansky sample</a><br/>	
+				<a href="https://www.whosampled.com/sample/3510/Radiohead-Idioteque-Paul-Lansky-Mild-Und-Leise/">Compare the two...</a>
+				<br/>
+				Piano Chords: <a href="https://www.youtube.com/watch?v=i-R3ZzD4thM">https://www.youtube.com/watch?v=i-R3ZzD4thM</a><br/>
+				<br/>
+				Trent Reznor / Nine Inch Nails remix files: <a href="http://www.ninremixes.com/multitracks.php">Download...</a>
+				<br/><br/>
+				Introduction to Pro Tools: Getting started, basic editing, make some noise.<br/>
+				READING: <a href="http://akmedia.digidesign.com/support/docs/Intro_to_Pro_Tools_80352.pdf">Intro to Pro Tools 11: pp. 1-37</a>	
+				<br/>
+				<br/>
+			</div>
+			<div id="date">Thursday, 9/19</div>
+			<div>
+				Visual Score for Soundscapes example: <a href="https://ccrma.stanford.edu/~sylin/coexistence.html">https://ccrma.stanford.edu/~sylin/coexistence.html</a><br/><br/>
+				HASS Network Share Drives:<br/>
+				<br/>
+				Apple Users: cifs://hass11.win.rpi.edu/classes<br/>
+				Windows Users: \\hass11.win.rpi.edu\classes, <a href="https://www.laptopmag.com/articles/map-network-drive-windows-10">Map a network drive instructions</a>, prefix your RCS ID at login with "WIN\"<br/>
+				<br/>
+				MIDI: The Good, the Bad and the Ugly
+				<br/>
+				Player Pianos: <a href="https://www.thrillist.com/entertainment/nation/westworld-music-piano-radiohead-soundgarden-songs-interview">Westworld and beyond</a><br/>
+				<br/>
+				<a href="http://rhizome.org/editorial/2013/sep/23/impossible-music-black-midi/">Black MIDI</a><br/>
+				Conlon Nancarrow: <a href="https://www.youtube.com/watch?v=LFz2lCEkjFk">Study for Player Piano No. 37</a>, <a href="https://www.youtube.com/watch?v=g0gNoELvpPo">Graphic version</a>, <A href="http://www.willshare.com/willeyrk/creative/papers/study37/">analysis</a><br/>				
+<!--				 - basic operation, synthesis, subpatches, abstractions, externals, logic -->
+				Pure Data: Introduction to PD (hands-on with MIDI): [notein], [noteout], [midiin] - break the piano<br/>
+			</div>
+		</div>
+	</div>
+	<div class="week">
+		<div id="week"><b>Week 5:</b></div>
+		<div class="class">
+			<div id="date">Monday, 9/23</div>
+			<div id="content">		
+				<br/>
+				Pure Data deep(er) dive<br/>
+				Ultra-mega-ok-pd-tutorial-patch: <a href="https://ccrma.stanford.edu/~rob/rpi/arts2963/2017/pd_tutorial.zip">pd_tutorial.zip</a><br/>						
+				<br/>		
+				REFERENCE: <a href="http://msp.ucsd.edu/techniques.htm">The Theory and Technique of Electronic Music</a> by <a href="http://msp.ucsd.edu/">Miller Puckette</a>
+				<br/>
+				REFERENCE: <a href="https://ccrma.stanford.edu/~jos/pasp/Karplus_Strong_Algorithm.html">Karplus Strong algorithm</a>, <a href="http://www.music.mcgill.ca/~gary/courses/papers/Jaffe-Extensions-CMJ-1983.pdf">Extensions to KP</a>
+				<br/>
+				REFERENCE: <a href="https://ccrma.stanford.edu/sites/default/files/user/jc/fm_synthesispaper-2.pdf">The Synthesis of Complex Audio Spectra by Means of
+Frequency Modulation</a> by <a href="https://ccrma.stanford.edu/people/john-chowning">John Chowning</a>, <a href="http://rwm.macba.cat/en/sonia/john-chowning-/capsula">interview</a><br/>
+				<!-- READING: <A HREF="http://music.arts.uci.edu/dobrian/digitalaudio.htm">How Digital Audio Works</a> by Christopher Dobrian<br/> -->										
+			</div>
+		</div>
+		
+		<div class="class" id="next">
+			<div id="date">Thursday, 9/26</div>
+			<div id="content">
+				<b>HOMEWORK #1 DUE - Class Presentations</b>
+			</div>
+		</div>		
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 6:</b></div>
+		<div class="class">
+			<div id="date">Monday, 9/30</div>
+			<div id="content">
+				Homework #1 Class Presentations Continued...
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/03</div>
+			<div id="content">
+				Pure Data continued - Synthesis techniques (osc~, sawtooth, square wave, AM, FM), Simple Notes, Envelopes, Note Sequences, Arrays
+			</div>
+		</div>
+	</div>
+	
+	<div class="week">
+		<div id="week"><b>Week 7:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/7</div>
+			<div id="content">
+				Audio Sampling in PD: Audio buffers, recording, playback, looping (loop~)<br/>
+				Pure Data Tutorial Patches: <a href="https://ccrma.stanford.edu/~rob/rpi/pd_lab.zip">pd_lab.zip</a>	<br/>
+				Mouse input: cyclone/mousestate (install via package-manager or <a href="https://github.com/porres/pd-cyclone">https://github.com/porres/pd-cyclone</a>)<br/>				
+				Installing externals: <a href="https://puredata.info/docs/faq/how-do-i-install-externals-and-help-files">link</a><br/>				
+				<br/>
+				PD analysis: fiddle~/sigmund~, bonk~<br/>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/10</div>
+			<div id="content">
+				Generative Music Systems: Leonard Paul's music from "Sim-Cell": <a href="https://www.youtube.com/watch?v=0xr4aL1C24E">youtube</a><br/>				
+				Martin Brinkmann patches: <a href="http://www.martin-brinkmann.de/pd-patches.html">http://www.martin-brinkmann.de/pd-patches.html</a><br/>				
+				RJDJ Abstractions: <a href="https://github.com/rjdj/rjlib">https://github.com/rjdj/rjlib</a>				
+				<br/>
+				Audio input (adc~)<br/>
+				PD analysis: fiddle~/sigmund~, bonk~<br/>				
+			</div>
+		</div>
+	</div>
+				
+				
+
+	<div class="week">
+		<div id="week"><b>Week 8:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/14</div>
+			<div id="content">
+				<b>NO CLASS - COLUMBUS DAY</b>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/17</div>
+			<div id="content">
+				<b>NO CLASS</b>
+			</div>
+		</div>
+	</div>	
+					
+	<div class="week">
+		<div id="week"><b>Week 9:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/21</div>
+			<div id="content">
+				MAKE SURE YOU HAVE DOWNLOADED AND RUN PD ON YOUR COMPUTER!!!!!!!!!!!<br/>
+				Bring in examples of code you're working on/have discovered online<br/>
+				Homework #2 will be due on 28th
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/24</div>
+			<div id="content">
+				Open Sound Control, Controllers, Networking
+			</div>
+		</div>
+	</div>	
+	
+	<div class="week">
+		<div id="week"><b>Week 10:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/28</div>
+			<div id="content">
+				<br/>
+				<a href="assignments.html#assignment2">Assignment #2:Composition/Instrument/Performance Environment (Due 10/28)</a><br/>
+				<p>In Pure Data, build an interactive composition or instrument that you will play, present or perform in class.</p>
+				<p>To complete this assignment please do the following:</p>
+				<ol>
+					<li>Create a composition in Pure Data using synthesis techniques, interactive controls, sequencing, sample-playback and/or any other aspects of the language that speak to you. This composiiton should be at least <b>2 minutes</b> in length. You can perform the work live in class or record a performance as your submission. NOTE: if you record a submission, be prepared to demo your code live in class.</li>
+					<li>Using the tutorial patches we looked at in class or your own creations, put together your own system that lets you create music and/or sound in real-time.</li>
+					<li>Your patch should let you do things like trigger notes on and off, control the volume of your instruments, and let you change additional parameters during a performance with your class-mates - the more interactive, the better!</li>		
+				</ol>
+				<p>
+					<p>Your submission for the assignment will consist of the following files to be uploaded to your folder on the class share drive (<b>\\hass11.win.rpi.edu\classes\ARTS-2020\</b>), into a folder named "Assignment 2":</p>
+					<p>
+						<ol>
+							<li>Your PD patches plus any samples or required files to perform your composition.</li>
+							<li>(if you're submitting a recording): A Stereo Mix of your sketch (44.1 or 48 kHz, 16 or 24 bit) uploaded to the class share.</li>
+							<li>A brief program-note for your sketch, including a title and description of your work (suitable for a concert's program).</li>
+						</ol>
+					</p>
+				</p>	
+					
+				</div>
+			</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/31</div>
+			<div id="content">
+				Fundamentals of ChucK: basic syntax
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 11:</b></div>
+		
+		<div class="class">
+			<div id="date">Monday, 11/4</div>
+			<div id="content">
+				<em>Appolonian Gasket</em> by Ignacio Pecino: <a href="https://vimeo.com/83995079">video</a>, <em>Singularity</em> by Ignacio Pecino: <a href="https://vimeo.com/79344883">video</a>, <a href="http://ignaciopecino.com/automata.html">demo (Firefox, Safari)</a><br/>
+				More ChucK: basic synthesis, time => now, control structures
+			</div>
+		</div>
+		
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/7</div>
+			<div id="content">
+				More more ChucK: joysticks, JoyOfChant/SMELT, sporking shreds, function, arrays (simple, multi-dimensional)
+			</div>
+		</div>
+	</div>	
+	
+	<div class="week">
+		<div id="week"><b>Week 12:</b></div>
+		<div class="class">
+			<div id="date">Monday, 11/11</div>
+			<div id="content">
+				SlorK Medly: <a href="https://www.youtube.com/watch?v=zmXSdOilSQQ">https://www.youtube.com/watch?v=zmXSdOilSQQ</a><br/>
+				Open Sound Control Networking in Chuck		
+				<a href="assignments.html#assignment3">Assignment #3: CHUCK Composition/Instrument/Performance Environment (Due 11/18)</a><br/>
+				<p>In ChucK, build an interactive system, composition or instrument that you will play, present or perform in class.</p>
+				<p>To complete this assignment please do the following:</p>
+				<ol>
+					<li>Create a composition in ChucK using synthesis techniques, interactive controls, sequencing, sample-playback, STK instruments and/or any other aspects of the language that speak to you. This composiiton should be at least <b>3 minutes</b> in length. You can perform the work live in class or record a performance as your submission. NOTE: if you record a submission, be prepared to demo your code live in class.</li>
+					<li>Using the tutorial patches we looked at in class or your own creations, put together your own system that lets you create music and/or sound in real-time.</li>
+					<li>Your project should let you do things like trigger notes on and off, control the volume of your instruments, and let you change additional parameters during a performance with your class-mates - the more interactive, the better!</li>		
+				</ol>
+				<p>
+					<p>Your submission for the assignment will consist of the following files to be uploaded to your folder on the class share drive (<b>\\hass11.win.rpi.edu\classes\ARTS-2020\</b>), into a folder named "Assignment 3":</p>
+					<p>
+						<ol>
+							<li>Your ChucK scripts plus any samples or required files to perform your composition.</li>
+							<li>(if you're submitting a recording): A Stereo Mix of your sketch (44.1 or 48 kHz, 16 or 24 bit) uploaded to the class share.</li>
+							<li>A brief program-note for your sketch, including a title and description of your work (suitable for a concert's program).</li>
+						</ol>
+					</p>
+				</p>																	
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/14</div>
+			<div id="content">
+				TBD
+			</div>
+		</div>
+	</div>	
+	
+	<div class="week">
+		<div id="week"><b>Week 13:</b></div>
+		<div class="class">
+			<div id="date">Monday, 11/18</div>
+			<div id="content">
+				Chuck Project Due
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/21</div>
+			<div id="content">
+				Chuck Project Due
+			</div>
+		</div>
+	</div>		
+	
+	<div class="week">
+		<div id="week"><b>Week 14:</b></div>
+		<div class="class">
+			<div id="date">Monday, 11/25</div>
+			<div id="content">
+				Final Project Proposals Due: Submit a written 1-page description of your proposed final project for this class. Your project may encompass any or all of the three primary compositional/music/sonic techniques and technologies we have investigated during the course of this class including fixed media composition with Audacity or Pro Tools, workflow interactive programming systems with Pure Data, and text-based programming with ChucK. Your proposal should be clear, concise and well written (typed) and should include both creative ideas and descriptions alongside technical tools and concepts.
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/28</div>
+			<div id="content">
+				THANKSGIVING BREAK: NO CLASS
+			</div>
+		</div>
+	</div>	
+	
+	<div class="week">
+		<div id="week"><b>Week 15:</b></div>
+		<div class="class">
+			<div id="date">Monday, 12/2</div>
+			<div id="content">
+				Final Project Work
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 12/5</div>
+			<div id="content">
+				Final Project Work
+			</div>
+		</div>
+	</div>				
+	
+	<div class="week">
+		<div id="week"><b>Week 16:</b></div>
+		<div class="class">
+			<div id="date">Monday, 12/9</div>
+			<div id="content">
+				LAST CLASS
+			</div>
+		</div>
+	</div>				
+	</div>						
+<!--
+	
+	Dynamic range, <a href="https://en.wikipedia.org/wiki/Loudness_war">loudness wars</a><br/>
+	<br/>
+	Working with Microphones in the Studio, AVID I/O<br/>
+	* condensor vs dynamic microphones<br/>
+	* Compression, Limiting<br/>
+	<br/>
+	<a href="http://reaper.fm/download.php">Reaper</a><br/>
+	
+	<div class="week">
+		<div id="week"><b>Week 5:</b></div>
+		<div class="class">
+			<div id="date">Monday, 9/25</div>
+			<div id="content">
+				Homework #1 Due: Class Presentations<br/>	
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 9/28</div>
+			<div id="content">
+				Homework #1 Presentations (continued)<br/>
+				<br/>
+				Student Profile: ____________________ <br/>	
+				<br/>
+				Introduction to <a href="https://cycling74.com/products/max">Max/MSP</a>: Dataflow programming basics<br/>
+				<br/>				
+				READING: <A HREF="http://music.arts.uci.edu/dobrian/digitalaudio.htm">How Digital Audio Works</a> by Christopher Dobrian<br/>						
+				
+			</div>
+		</div>
+	</div>			
+	
+	<div class="week">
+		<div id="week"><b>Week 6:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/2</div>
+			<div id="content">
+				Student Profile: Yawen Shen<br/>	
+				<br/>
+				Introduction to <a href="https://cycling74.com/products/max">Max/MSP</a> (continued)<br/>
+				Download Max tutorial patches: <a href="https://ccrma.stanford.edu/~rob/rpi/arts2020/max_tutorial.zip">max_tutorial.zip</a><br/>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/5</div>
+			<div id="content">
+				Max/MSP: Tutorial patch pt. II, In-class Instrument Hack
+			</div>
+		</div>
+	</div>				
+	
+	<div class="week">
+		<div id="week"><b>Week 7:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 10/10</div>
+			<div id="content">
+				Player Pianos: <a href="https://www.thrillist.com/entertainment/nation/westworld-music-piano-radiohead-soundgarden-songs-interview">Westworld and beyond</a><br/>
+				<a href="http://rhizome.org/editorial/2013/sep/23/impossible-music-black-midi/">Black MIDI</a><br/>
+				Conlon Nancarrow: <a href="https://www.youtube.com/watch?v=f2gVhBxwRqg">Study for Player Piano No. 21 (Canon X)</a>, <A href="http://www.carlos-sandoval.de/nancarrow/heisig.htm">analysis</a><br/>
+				<a href="assignments.html#assignment2">Assignment #2:Composition/Instrument/Performance Environment (Due 10/26)</a><br/>
+				<br/>
+				Max example: <a href="https://ccrma.stanford.edu/~rob/rpi/arts2020/simple_system.maxpat.zip">simple_system.maxpat.zip</a> 				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/12</div>
+			<div id="content">
+				Student Profile: Silei Tian<br/>	
+				<br/>
+				Algorithmic and Generative Composition: tools in Max (matrices, poly~, step-sequencing)<br/>
+				Conway's game of life: <a href="https://www.youtube.com/watch?v=fItSJYOqee0">youtube</a><br/>
+				<br/>
+				Composing for Instrument and Computer:<br/>
+				<em>Ripped Up Maps</em> by Andrew May: <a href="https://www.youtube.com/watch?v=9cqB7nEFHN8">youtube</a><br/>
+				<em>is the same... is not the same</em> <a href="https://ccrma.stanford.edu/~rob/portfolio/isthesame/">score, .mp3</a><br/>
+				Augmented Instruments:<br/>
+				Berdahl Resonance Guitar: <a href="https://ccrma.stanford.edu/~rob/portfolio/resonancefront/">youtube</a>				
+			</div>
+		</div>
+	</div>				
+	
+	<div class="week">
+		<div id="week"><b>Week 8:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/16</div>
+			<div id="content">
+				Guest Lecture (TBD)
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/19</div>
+			<div id="content">
+				Guest Lecture (TBD)
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 9:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/23</div>
+			<div id="content">
+				Assignment #2: Hack-day in class<br/>
+				Student Profile: Nate Wheeler<br/>	
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 10/26</div>
+			<div id="content">
+				<p><a href="assignments.html#assignment2">Assignment #2: Max/MSP Composition/Instrument/Performance Environment Due</a></p>								
+				Student Profile: Katherine Spencer<br/>	
+			</div>
+		</div>
+	</div>		
+
+	<div class="week">
+		<div id="week"><b>Week 10:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/30</div>
+			<div id="content">
+				Student Profile: Mallory Peskens<br/>	
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/2</div>
+			<div id="content">
+				Student Profile: Cheng Jiang<br/>	
+			</div>
+		</div>
+	</div>		
+	
+	<div class="week">
+		<div id="week"><b>Week 11:</b></div>
+		<div class="class">
+			<div id="date">Monday, 11/6</div>
+			<div id="content">
+				Student Profile: Daniel Southwick<br/>	
+				ChucK Examples: <a href="https://ccrma.stanford.edu/~rob/rpi/examples.zip">examples.zip</a><br/>
+				<a href="assignments.html#assignment3">Assignment #3: Chuck Composition Assigned, Due 11/20</a>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/9</div>
+			<div id="content">
+				Student Profile: Jeffrey Brewer<br/>	
+				Time, shreds and sporking in Chuck
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Saturday, 11/11</div>
+			<div id="content">
+				ARTS DEPARTMENT Concert (Sage Dining Hall, Upstairs)<br/>	
+			</div>
+		</div>		
+	</div>			
+	
+	<div class="week">
+		<div id="week"><b>Week 12:</b></div>
+		<div class="class">
+			<div id="date">Monday, 11/13</div>
+			<div id="content">
+				Student Profile: Jacob Doskocil, Brendan Courson<br/>
+				Chuck (continued)
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/16</div>
+			<div id="content">
+				Student Profile: Emily Lockwood, Martin Duffy<br/>	
+				Chuck recording, Joy-of-chant, joysticks
+			</div>
+		</div>
+	</div>			
+		
+	<div class="week">
+		<div id="week"><b>Week 13:</b></div>
+		<div class="class">
+			<div id="date">Monday, 11/20</div>
+			<div id="content">
+				Student Profile: Ivy Wang, Chenyu Xu<br/>	
+				<a href="assignments.html#assignment3">Assignment #3: Chuck Composition Due</a>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/23</div>
+			<div id="content">
+				THANKSGIVING BREAK: NO CLASS
+			</div>
+		</div>
+	</div>					
+		
+	<div class="week">
+		<div id="week"><b>Week 14:</b></div>
+		<div class="class">
+			<div id="date">Monday, 11/27</div>
+			<div id="content">
+				Final Project Proposals - First Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 11/30</div>
+			<div id="content">
+				Final Project Proposals - First Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 15:</b></div>
+		<div class="class">
+			<div id="date">Monday, 12/4</div>
+			<div id="content">
+				Final Project Proposals - First Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Thursday, 12/7</div>
+			<div id="content">
+				Final Project Proposals - First Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 16:</b></div>
+		<div class="class">
+			<div id="date">Monday, 12/11</div>
+			<div id="content">
+				FINAL CLASS: Final Project Presentations
+			</div>
+		</div>
+	</div>	
+					
+-->		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+<!--		
+	<div class="week">
+		<div id="week"><b>Week 2:</b></div>
+		<div class="class">
+			<div id="date">Thursday, 9/7</div>
+			<div id="content">
+				<b>Representing Sound and Music</b>: Time and Frequency, Analog-to-digital representations<br/>
+				
+				Gyorgy Ligeti's <em><a href="https://www.youtube.com/watch?v=71hNl_skTZQ">Artikulation</a></em><br/>
+				Introduction to Max/MSP: Dataflow programming basics<br/><br/>
+				
+				READING: <a href="http://www.jstor.org/stable/1712380?origin=JSTOR-pdf&seq=1#page_scan_tab_contents">The Digital Computer as a Musical Instrument</a> by Max Mathews, <a href="https://ccrma.stanford.edu/~rob/rpi/resources/mathews-1963.pdf">off-campus link</a><br/>
+				READING: <A HREF="http://music.arts.uci.edu/dobrian/digitalaudio.htm">How Digital Audio Works</a> by Christopher Dobrian<br/>				
+			
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 9/9</div>
+			<div id="content">
+				Max/MSP: Tutorial Patch Overview, playing back samples, keyboard + mouse interactions<Br/>
+				Laptop Performance
+				<p><a href="assignments.html#assignment1">Assignment #1: Build-an-Instrument (Due 9/20)</a></p>
+			</div>
+		</div>
+	</div>		
+
+	<div class="week">
+		<div id="week"><b>Week 3:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 9/13</div>
+			<div id="content">
+				Guest Lectures: K. Michael Fox and Cem Cakmak
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 9/16</div>
+			<div id="content">
+				NO CLASS
+			</div>
+		</div>
+	</div>			
+	
+	<div class=page-break></div>
+		
+	<div class="week">
+		<div id="week"><b>Week 4:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 9/20</div>
+			<div id="content">
+				Assignment #1 Due: In-class presentations/performance
+				<br/>electronic improvisation, jam session
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 9/23</div>
+			<div id="content">
+				History of recording technologies, basics of audio formats, compression, loudness, <A href="https://www.youtube.com/watch?v=SXohawczCfI">John Mayer</a>
+					<br/>
+				Lecture slides: <a href="recording.pdf">.pdf</a>				
+			</div>
+		</div>	
+	</div>		
+
+	<div class="week">
+		<div id="week"><b>Week 5:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 9/27</div>
+			<div id="content">
+				Pro Tools Introduction: audio import, tracks, editing, plug-ins
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 9/30</div>
+			<div id="content">
+				Sound and Process - simple sound models, rooms, voices
+				<br/><A href="http://alucier.web.wesleyan.edu/">Alvin Lucier</a>: <em>I Am Sitting In A Room</em>
+				<br/><a href="https://www.ted.com/talks/mark_applebaum_the_mad_scientist_of_music?language=en#t-75509">Mark Applebaum</a>: <em>Pre-Composition</em>
+			</div>
+		</div>
+		
+		<div class="class" id="next">
+			<div id="date">Saturday, 10/1</div>
+			<div id="content">
+				EMPAC Recording Day #1: pianist Chryssie Nanou plays the Bach French Overtures
+			</div>
+		</div>		
+	</div>		
+
+	<div class="week">
+		<div id="week"><b>Week 6:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 10/4</div>
+			<div id="content">
+				Visiting Guest Artist Discussion: Chryssie Nanou
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 10/7</div>
+			<div id="content">
+				Pro Tools Session: Multiple microphones, editing, mastering
+				<p><a href="assignments.html#assignment2">Assignment #2: French Overture mastering (Due 10/18)</a></p>
+			</div>
+		</div>
+	</div>	
+	
+
+	
+***************** 10/7 REPORT EWS INFORMATION FOR ALL STUDENTS ***************** 
+	
+
+
+	<div class="week">
+		<div id="week"><b>Week 7:</b></div>
+		<div class="class">
+			<div id="date">Monday, 10/10</div>
+			<div id="content">
+				NEW ATLANTIS CONCERT: <a href="http://www.eartaxifestival.com/peter-gena-new-atlantis/">http://www.eartaxifestival.com/peter-gena-new-atlantis/</a>
+			</div>
+		</div>
+
+		<div class="class"id="next">
+			<div id="date">Tuesday, 10/11</div>
+			<div id="content">
+				NO CLASS (MONDAY SCHEDULE POST-HOLIDAY)
+			</div>
+		</div>
+		
+		<div class="class" id="next">
+			<div id="date">Friday, 10/14</div>
+			<div id="content">
+				Max/MSP: feedback delay systems, midi input/control, introduction to sampling, additive synthesis, digital filters
+			</div>
+		</div>
+	</div>	
+
+
+************************ MAJOR GRADE DUE BEFORE THE DROP DEADLINE (10/21) ************************	
+
+
+
+		<div class="class" id="next">
+			<div id="date">Wednesday, 3/9</div>
+			<div id="content">
+				
+				<b>Max/MSP Tutorial</b>: Digital Signal Processing, rhythm and structure, recording output</br>
+				<b>Max/MSP Tutorial:</b> Audio inputs and outputs, feedback ecosystems, real-time effects processing
+				Assignment #4 Due: In-class "Trio" performances<br/> 
+
+			</div>
+		</div>
+	</div>	
+	
+	<div class=page-break></div>	
+
+
+	
+	<div class="week">
+		<div id="week"><b>Week 8:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 10/18</div>
+			<div id="content">
+				In-class review: Assignment #2
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 10/21</div>
+			<div id="content">
+				Max/MSP: advanced sampling, sfplay~, pitch shifting, retune~, granular synthesis
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 9:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 10/25</div>
+			<div id="content">
+				Algorithmic and Generative Composition: tools in Max (matrices, poly~, step-sequencing)<br/>
+				Conway's game of life: <a href="https://www.youtube.com/watch?v=fItSJYOqee0">youtube</a>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 10/28</div>
+			<div id="content">
+				Composing for Instrument and Computer:<br/>
+				<em>Ripped Up Maps</em> by Andrew May: <a href="https://www.youtube.com/watch?v=9cqB7nEFHN8">youtube</a><br/>
+				<em>is the same... is not the same</em> <a href="https://ccrma.stanford.edu/~rob/portfolio/isthesame/">score, .mp3</a><br/>
+				Augmented Instruments:<br/>
+				Berdahl Resonance Guitar: <a href="https://ccrma.stanford.edu/~rob/portfolio/resonancefront/">youtube</a>
+				<p><a href="assignments.html#assignment3">Assignment #3: Composing with Max (Due 11/11)</a></p>
+			</div>
+		</div>
+	</div>	
+
+ soundflower, alternate controllers
+	
+	<div class="week">
+		<div id="week"><b>Week 10:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 11/1</div>
+			<div id="content">
+				NO CLASS: Introduction to Programming in ChucK (video tutorials)
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 11/4</div>
+			<div id="content">
+				Programming in ChucK
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 11:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 11/8</div>
+			<div id="content">
+				Programming in ChucK
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 11/11</div>
+			<div id="content">
+				Assignment #3 Due: Review in Class
+			</div>
+		</div>
+		
+		<div class="class" id="next">
+			<div id="date">Saturday, 11/12</div>
+			<div id="content">
+				EMPAC RECORDING DAY #2
+			</div>
+		</div>		
+	</div>
+
+<div class=page-break></div>
+
+	<div class="week">
+		<div id="week"><b>Week 12:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 11/15</div>
+			<div id="content">
+				Programming in ChucK
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 11/18</div>
+			<div id="content">
+				Programming in ChucK
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 13:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 11/22</div>
+			<div id="content">				
+				Final Project Proposals<br/>				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 11/25</div>
+			<div id="content">
+				THANKSGIVING HOLIDAY - NO CLASS
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 14:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 11/29</div>
+			<div id="content">
+				Final Project Hack-A-Thon
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 12/2</div>
+			<div id="content">
+				Final Project Proposals - Final Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 15:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 12/6</div>
+			<div id="content">
+				Final Project Proposals - Final Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Friday, 12/9</div>
+			<div id="content">
+				Final Project Proposals - Final Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+	</div>
+-->
+			
+<!--	
+	<div class="week">
+		<div id="week"><b>Week 3:</b></div>
+		<div class="class">
+			<div id="date">Monday, 2/8</div>
+			<div id="content">
+				Student Profile: Taylor Eruysal<br/>
+				<a href="assignments.html#assignment2">Assignment #2</a> Due; Presentations in Class<br/>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 2/10</div>
+			<div id="content">
+				Student Profile: Jack Higgins <br/>
+
+			</div>
+		</div>
+	</div>			
+	
+	<div class=page-break></div>
+		
+	<div class="week">
+		<div id="week"><b>Week 4:</b></div>
+		<div class="class">
+			<div id="date">Monday, 2/15</div>
+			<div id="content">
+				Presidents Day Holiday (No Class) <br/>				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 2/17</div>
+			<div id="content">
+				Student Profile: Michael Gardner <br/>			
+			</div>
+		</div>	
+	</div>		
+
+	<div class="week">
+		<div id="week"><b>Week 5:</b></div>
+		<div class="class">
+			<div id="date">Tuesday, 2/23</div>
+			<div id="content">
+				<b>LAB: Introduction to Interactive Music Programming:</b> Max/MSP overview, Workflow programming, MIDI
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 2/24</div>
+			<div id="content">
+				<b>LAB: Introduction to Interactive Music Programming:</b> Max/MSP overview, Workflow programming, MIDI
+			</div>
+		</div>
+	</div>		
+
+	<div class="week">
+		<div id="week"><b>Week 6:</b></div>
+		<div class="class">
+			<div id="date">Monday, 2/29</div>
+			<div id="content">
+				Student Profile: Dennis Fogerty<br/>				
+				Student Profile: Jiawei Tan <br/>					
+				Student Profile: Eugene Umlore<br/>					
+				<b>Max/MSP:</b> basic synthesis, sample playback, control systems</br>		
+				READING: <a href="http://music.arts.uci.edu/dobrian/digitalaudio.htm">Digital Audio</a> by Chris Dobrian<br/>
+				TUTORIALS: <a href="https://www.youtube.com/watch?v=xRd0-giLGPM&list=PLVIa8UkRzErsdnC1DEpDy7S9Ss7BhY7nY">Learning Max @Youtube</a>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 3/2</div>
+			<div id="content">
+				Student Profile: Catherine Litvaitis <br/>	
+				Assignment #3 Due; Presentations in Class	<br/>
+			</div>
+		</div>
+	</div>	
+
+-->		
+		<!--
+	
+		***************** 3/4 REPORT EWS INFORMATION FOR ALL STUDENTS ***************** 
+	
+		-->
+<!--
+	<div class="week">
+		<div id="week"><b>Week 7:</b></div>
+		<div class="class">
+			<div id="date">Monday, 3/7</div>
+			<div id="content">
+				Student Profile: Liang Li <br/>	
+				Assignment #3 Presentations in Class (Continued)<br/><br/>
+				<b>Max/MSP:</b> History and examples<br/>
+				VIDEO: Jean-Claude Risset's <a href="https://youtu.be/Hloic1oBfug?t=4149">Duet for One Pianist</a> by Chryssie Nanou<br/>
+				INTERVIEW: Robert Henke/Monolake: <a href="https://cycling74.com/2009/11/21/an-interview-with-robert-henke/#.Vt3Qs5MrJE4">interview</a>										
+				AUDIO: Phillipe Manoury's <a href="https://www.youtube.com/watch?v=JFnW7Xocb_U">Pluton</a>
+				<br/><br/>
+				<a href="assignments.html#assignment4">Assignment #4: Build-an-Instrument (Due 3/21)</a>							
+			</div>
+		</div>
+
+
+		<!--
+		************************ MAJOR GRADE DUE BEFORE THE DROP DEADLINE (3/11) ************************	
+		-->
+
+<!--			
+		<div class="class" id="next">
+			<div id="date">Wednesday, 3/9</div>
+			<div id="content">
+				
+				<b>Max/MSP Tutorial</b>: Digital Signal Processing, rhythm and structure, recording output</br>
+				<b>Max/MSP Tutorial:</b> Audio inputs and outputs, feedback ecosystems, real-time effects processing
+				Assignment #4 Due: In-class "Trio" performances<br/> 
+
+			</div>
+		</div>
+	</div>	
+
+	<div class=page-break></div>
+	
+	<div class="week">
+		<div id="week"><b>Week 8:</b></div>
+		<div class="class">
+			<div id="date">Monday, 3/14</div>
+			<div id="content">
+				Spring Break (No Class)
+
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 3/16</div>
+			<div id="content">
+				Spring Break (No Class)
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 9:</b></div>
+		<div class="class">
+			<div id="date">Monday, 3/21</div>
+			<div id="content">
+				Student Profile: Clayton Rayment <br/>	
+				<a href="assignments.html#assignment4">Assignment #4</a> Due: In-class "Trio" performances<br/> 				
+
+				<b>Max/MSP Tutorial:</b> Granular Synthesis, timing structures, musical networks: Open Sound Control, Bluetooth controllers, externals<br/>
+				Max/MSP - In-class Work-session<br/>
+				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 3/23</div>
+			<div id="content">
+				Student Profile: Alex Lieberman <br/>	
+				Student Profile: Jessica Spencer <br/>	
+				Max/MSP Tutorial: Real-time controllers, Open Sound Control, Mobile Phones (TouchOSC), Wiimote, Osculator, Leap Motion/ManosOSC<br/> 
+
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 10:</b></div>
+		<div class="class">
+			<div id="date">Monday, 3/28</div>
+			<div id="content">
+				Student Profile: Nick Karalexis <br/>	
+				Max/MSP Wrap-up: Timing, Externals, Composition<br/>
+				<a href="assignments.html#assignment5">Assignment #5: Interactive Composition (Due 4/6)</a>								
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 3/30</div>
+			<div id="content">
+				Student Profile: Xuefan Zhou <br/>					
+				<b>Introduction to text-based music programming with ChucK:</b> syntax, time, basic ugens, sample playback, rhythmic structures, data structures, looping<br/>
+				READING: <a href="http://www.gewang.com/publish/files/2015-cmj-chuck.pdf">ChucK Paper (Computer Music Journal) 2015</a>
+			</div>
+		</div>
+	</div>	
+
+	<div class="week">
+		<div id="week"><b>Week 11:</b></div>
+		<div class="class">
+			<div id="date">Monday, 4/4</div>
+			<div id="content">
+				<b>ChucK Tutorial:</b> ugens, more data structures, on-the-fly programming, HID devices<br/>
+				<a href="assignments.html#assignment6">Assignment #6: Chuck rhythmic sequencer (Due 4/13)</a>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 4/6</div>
+			<div id="content">
+				<a href="assignments.html#assignment5">Assignment #5 (Max Composition) Present in Class</a>
+			</div>
+		</div>
+	</div>
+
+<div class=page-break></div>
+
+	<div class="week">
+		<div id="week"><b>Week 12:</b></div>
+		<div class="class">
+			<div id="date">Monday, 4/11</div>
+			<div id="content">
+				<b>ChucK Tutorial:</b> synthesis, effects, sporking shreds</br>
+				<a href="assignments.html#assignment7">Assignment #7: Chuck Composition(Due 4/25)</a>
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 4/13</div>
+			<div id="content">
+				Grand Marshall Week (No Class)<br/>
+				<a href="assignments.html#assignment6">Assignment #6 due (no class presentations)</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 13:</b></div>
+		<div class="class">
+			<div id="date">Monday, 4/18</div>
+			<div id="content">				
+				<b>ChucK Tutorial:</b> composing for multiple computers, events, synchrony<br/>
+			    <b>ChucK Tutorial:</b> organizing and structuring a piece, distributed performance<br/>			
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 4/20</div>
+			<div id="content">
+				Assignment: Final Project Proposal (Due 4/27)</br>		
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 14:</b></div>
+		<div class="class">
+			<div id="date">Monday, 4/25</div>
+			<div id="content">
+				<a href="assignments.html#assignment7">Assignment #7</a> Due: Present in Class<br/>												
+				<b>Anatomy of a Project: software design and project management for interactive musical projects</b><br/>				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 4/27</div>
+			<div id="content">
+				Final Project Proposals - First Check-ins, Progress Reports<br/>				
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 15:</b></div>
+		<div class="class">
+			<div id="date">Monday, 5/2</div>
+			<div id="content">
+				Final Project Progress Reports/Check-ins				
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 5/4</div>
+			<div id="content">
+				Final Project Progress Reports/Check-ins
+			</div>
+		</div>
+	</div>
+
+	<div class="week">
+		<div id="week"><b>Week 16:</b></div>
+		<div class="class">
+			<div id="date">Monday, 5/9</div>
+			<div id="content">
+				Final Project Progress Reports/Check-ins
+			</div>
+		</div>
+		<div class="class" id="next">
+			<div id="date">Wednesday, 5/11</div>
+			<div id="content">
+				<a href="">Final Class Presentations/Concert</a>
+			</div>
+		</div>
+	</div>
+-->
+</div>
+
+</div>
+</body>
+</html>
+ <!--				<b>Introduction to Web Audio:</b> real-time audio in a browser, WAAX: synthesis, filters, controllers -->
+ <!--				<b>Web Audio Tutorial:</b> building a web-audio project<br/> -->
+ <!--				<a href="">Assignment #8: Web Audio sketch (Due 11/30)</a></br> -->			
+ <!--				<b>Computer Music Paradigms:</b> Music on the Web, Audio over Internet, laptop orchestras, data sonification<br/> -->
+ <!--				Final Project Progress Reports/Check-ins -->
+ <!--				<b>Web Audio Tutorial:</b> TBD<br/>	 -->
+ <!--				<b>Computer Music Paradigms:</b> Mobile Music, Visual Programming, Gaming<br/> --> 
+ <!--		
+ 		<div class="class" id="next">
+ 			<div id="date">Friday, 12/4</div>
+ 			<div id="content">
+ 				Final Project Hack-a-thon
+ 			</div>
+ 		</div>		
+ -->		
+ 

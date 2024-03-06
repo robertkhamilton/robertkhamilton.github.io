@@ -1,0 +1,68 @@
+
+<ol>
+	<li>clone the New Atlantis Git repository from https://github.com/jonlab/NewAtlantis/</li>
+
+<pre>
+bob:~ rob$ cd ~/data/Projects/NewAtlantis/na_10092016/
+bob:na_10092016 rob$ git clone https://github.com/jonlab/NewAtlantis.git .
+</pre>
+	
+<pre>	
+Cloning into '.'...
+remote: Counting objects: 6221, done.
+remote: Compressing objects: 100% (229/229), done.
+remote: Total 6221 (delta 135), reused 0 (delta 0), pack-reused 5992
+Receiving objects: 100% (6221/6221), 378.95 MiB | 1.96 MiB/s, done.
+Resolving deltas: 100% (3467/3467), done.
+Checking connectivity... done.
+</pre>
+	
+	<li>In Unity, open the New Atlantis project from the Git repo.</li>
+	<br/>
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/unity_newproject.png" style="width:600px">
+	<br><br>		
+		
+	<li>Unity will open the project to an empty scene.</li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/unity_newunity.png" style="width:600px">
+	<br><br>		
+	
+	<li>In the <b>Assets > NewAtlantis > Core > Scenes</b> folder open the <em>NewAtlantisViewer3.unity</em>. scene.</li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/unity_newscene.png" style="width:600px">
+	<br><br>		
+
+	<li>At this point you can run the project to launch the NewAtlantis viewer. If you have an existing login and password use that to connect to the NA Server. Otherwise create a unique login and password.</li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/unity_newnascene.png" style="width:600px">
+	<br><br>		
+
+	<li>To develop your own content, create a working directory within Assets. In the below example I created folder <b>Assets > Rob</b>. Within that folder I created a new Scene and then launched that blank scene. Within that scene I created a simple object consisting of 2 cubes and a sphere. To package them as a prefab, I created a blank GameObject, renamed it to "myPrefab", and then made my cube-sphere-cube construct a child of that GameObject by dragging them into "myPrefab" in the left menu. To create a prefab, I simply then dragged "myPrefab" down into my "Rob" folder in the Project viewer. </li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/unity_myprefab.png" style="width:600px">
+	<br><br>		
+
+	<li>To export this prefab into a form compatible with the New Atlantis architecture, right-click on the prefab in the Project viewer and select the option "Create a New Atlantis Asset Bundle from your prefab". Save the bundle into the <b>NewAtlantisUnity > Bundles</b> folder.</li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/unity_naexport.png" style="width:600px">
+	<br><br>	
+
+	<li>To upload this prefab to the New Atlantis servers, load the launch the <em>NewAtlantisViewer3.unity</em> scene, and login to your user account. Select the  <b>MyNA</b> button from the top-left menu. Within the MyNA window, click the <em>Import a new asset to my library</em>. </li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/unity_myna_whole.png" style="width:600px">
+	<br><br>	
+	
+	<li>From the dialog menu that pops up, select your prefab (for me its "robs_awesome_prefab.unity3d"). In the "name" field, give your file a name so that we can identify it. For this course, give your file a prefix "dmg_" for "Designing Musical Games". Make sure you leave the "public" button checked so that others can download your prefab.</li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/na_chooseprefab_rob.png" style="width:600px">
+	<br><br>	
+
+	<li>Once the file has been successfully uploaded, it will appear in your assets list and can be accessed in New Atlantis.</li>
+	<br>	
+	<img src="https://ccrma.stanford.edu/~rob/rpi/arts2963/newatlantis/img/na_uploadedprefab.png" style="width:600px">
+	<br><br>	
+			
+	<li>If your project is using custom scripts, those scripts must be added to the New Atlantis Git repository. They need to be checked by Jonathan and/or Ben before they will work with the server. Please email us your scripts so they can be checked.</li>
+	
+	
+</ol>	
