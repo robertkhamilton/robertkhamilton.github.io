@@ -272,28 +272,41 @@
 			<div id="date">Friday, 1/23</div>
 			<div id="content">	
 				<br/>
+				
 				Intro Music: <br/>
 				 - Conlon Nancarrow's <a href="https://www.youtube.com/watch?v=f2gVhBxwRqg">Study No. 21 for Player Piano (Canon X)</a><br/>
 				 - <a href="https://www.youtube.com/watch?v=CG-GLkHG4C0">Canon X Visualization</a><br/>
 				 - Black Midi (not the band): <a href="https://norient.com/stefan-schultze/phenomenon-black-midi-introduction">https://norient.com/stefan-schultze/phenomenon-black-midi-introduction</a><br/>
 				 - Jean Claude Risset's <em>Duet for One Pianist</em> <a href="https://chrysinanou.net/portfolio/duet-for-one-pianist/">https://chrysinanou.net/portfolio/duet-for-one-pianist/</a><br/>
 				<br/>
+				
 				Risset, J.C., Van Duyne, S. 1996. “Real-time interaction with a computer-controlled acoustic piano”, Computer Music Journal, 1996, Vol. 20, no 1, pp. 62-75. [<a href="https://www.jstor.org/stable/3681273">JSTOR link</a>]<br/>
 				C. Nanou, Hamilton, R. 2009. “For Jean-Claude: [re]Presenting Duet for One Pianist” In Proceedings of the International Computer Music Association Conference, Montreal, Canada. [<a href="https://github.com/robertkhamilton/publications/blob/master/2009_icmc_nanou_hamilton.pdf">.pdf</a><br/>
 				Nanou, C., Hamilton, R., "Historical Virtualization: Analog and Digital Concerns in the Recreation, Modeling and Preservation of Contemporary Piano Repertoire", Leonardo Music Journal, Issue 27, pp.27-31, Dec. 2017, doi: 10.1162/LMJ_a_01004. [<a href="https://github.com/robertkhamilton/publications/blob/master/2017_lmj_nanou_hamilton.pdf">.pdf</a><br/>
 				<br/>
+				
 				General MIDI comparison (external vs. soundcard): <a href="https://www.youtube.com/watch?v=BBvzCW1UCcc">https://www.youtube.com/watch?v=BBvzCW1UCcc</a><br/>
 				More GM comparison (hardware synths): <a href="https://www.youtube.com/watch?v=MWAnDOX5Xxw&list=RDMWAnDOX5Xxw&start_radio=1">https://www.youtube.com/watch?v=MWAnDOX5Xxw&list=RDMWAnDOX5Xxw&start_radio=1</a><br/>
 				<a href="https://en.wikipedia.org/wiki/General_MIDI">General MIDI</a> instrument list: <a href="https://www.earmaster.com/wiki/music-technology/list-of-general-midi-instruments.html?srsltid=AfmBOoqMj7NWANq7qO4nIG9YV97vRBu8MXjwI-C1vgz9GsgXc9la_sbI">https://www.earmaster.com/wiki/music-technology/list-of-general-midi-instruments.html?srsltid=AfmBOoqMj7NWANq7qO4nIG9YV97vRBu8MXjwI-C1vgz9GsgXc9la_sbI</a><br/>				
 				<Br/>
+				
 				Pure Data's s_midi.c: <a href="https://github.com/pure-data/pure-data/blob/master/src/s_midi.c">https://github.com/pure-data/pure-data/blob/master/src/s_midi.c</a><br/>
 				<Br/>
+				
 				MIDI vs. Frequency (mtof, ftom): <a href="https://caml.music.mcgill.ca/~gary/307/week1/node11.html">https://caml.music.mcgill.ca/~gary/307/week1/node11.html</a><br/>
+				<br/>
+				
+				MIDI to Frequency (mtof): f = 440 * 2^((M - 69) / 12)<br/>
+				Frequency to MIDI (ftom): M = 12 * log₂(f / 440) + 69<Br/>
+				
 				<Br/>
 				Pure Data's mtof/ftom: <a href="https://github.com/pure-data/pure-data/blob/master/src/x_acoustics.c#L19">https://github.com/pure-data/pure-data/blob/master/src/x_acoustics.c#L19</a><br/>				
-				<br/>				
+				<br/>		
+				
 				DOWNLOAD:<br/>
 				 * Max/MSP and Pure Data abstractions: <a href="https://rpi.box.com/s/eiwafhqkjezr6oadd0wf5p0kpiaof78i">https://rpi.box.com/s/eiwafhqkjezr6oadd0wf5p0kpiaof78i</a>,br/>				
+				<br/>
+				
 				EXERCISE:
 				The Inner-workings of a MIDI file: <a href="https://cm-gitlab.stanford.edu/craig/midifile">https://cm-gitlab.stanford.edu/craig/midifile</a>
 				<br/>
