@@ -168,11 +168,21 @@ body {
 
 #banner h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:56px;
+    line-height:54px;
+    font-weight:800;
+    color:#111;
+}
+
+/*
+#banner h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:62px;
     line-height:60px;
     font-weight:800;
     color:#111;
 }
+*/
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
