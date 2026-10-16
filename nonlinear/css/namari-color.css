@@ -129,11 +129,29 @@ a:hover, #header.nav-solid nav a:hover {
 }
 @media screen and (min-width: 768px) {
   #banner {
-    background: url('../images/banner-images/banner-image-desktop.png') no-repeat center top;
-    background-size:cover;
+    background-image: url('../images/banner-images/banner-image-desktop-grid-3000x1920.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center top !important;
+    background-size: auto !important; /* Retains actual 3000x1920 size without scaling */
+    
+  
+    
   }
 }
 
+    /*
+    background-attachment: scroll !important; /* Disables script parallax adjustments */
+    background-image: url('../images/banner-images/banner-image-desktop-grid-3000x1920.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    background-size:  100% auto;    
+    background-size: contain;
+    background: url('../images/banner-images/banner-image-desktop.png') no-repeat center top; 
+    background: url('../images/banner-images/banner-image-desktop-grid-3000x1920.png') no-repeat left top;
+    background-position: left top; 
+    background-size:cover;
+    */
 /*
 #banner_old {
     background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
