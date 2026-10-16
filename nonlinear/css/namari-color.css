@@ -213,6 +213,22 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+    #banner h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:42px;
+    line-height:40px;
+    font-weight:600;
+    color:#111;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-break {
+        display: none;
+    }
+}
+
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:18px;
