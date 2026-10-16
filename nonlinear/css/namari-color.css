@@ -129,7 +129,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 @media screen and (min-width: 768px) {
   #banner {
-    background-image: url('../images/banner-images/banner-image-desktop-grid-3000x1920.png') !important;
+    background-image: url('../images/banner-images/banner-image-nonlinear.png') !important;
     background-repeat: no-repeat !important;
     background-position: center top !important;
     background-size: auto !important; /* Retains actual 3000x1920 size without scaling */
@@ -140,7 +140,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
     /*
-    background-attachment: scroll !important; /* Disables script parallax adjustments */
+    background-attachment: scroll !important; /* Disables script parallax adjustments 
     background-image: url('../images/banner-images/banner-image-desktop-grid-3000x1920.png');
     background-repeat: no-repeat;
     background-position: left top;
