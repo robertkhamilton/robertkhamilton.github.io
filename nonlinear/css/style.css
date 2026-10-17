@@ -240,6 +240,8 @@ section {
 
 .col-3 {
     width: 33.33%;
+    position: relative;
+    display: inline-block;
 }
 
 .col-4 {
