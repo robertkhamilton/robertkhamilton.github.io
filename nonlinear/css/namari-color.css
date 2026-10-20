@@ -386,3 +386,33 @@ h6 {
 #landing-footer i {
     color:#999;
 }
+
+
+/*------------------------------------------------------------------------------------------*/
+/* RKH FAQ */
+/*------------------------------------------------------------------------------------------*/
+
+/* Custom spacing and alignment for the FAQ blocks */
+.faq-item {
+    text-align: left; /* Forces all nested elements to align left */
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.faq-item h4 {
+    text-align: center; /* Double-ensures heading overrides any global center rules */
+    margin-bottom: 8px;
+    color: #111111;
+}
+
+/* Adds a clean indent to the answer text underneath the heading */
+.faq-item p {
+    text-align: left;
+    margin-left: 20px; /* Adjust this value (e.g., 15px to 30px) to change the indent size */
+}
