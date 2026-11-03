@@ -780,12 +780,7 @@
 				&nbsp; * Validated Get variable - right click, like [Is Valid]<br/>
 				<br/>
 				[Execute Trigger Parameter] BP node<br/>
-				<br/>
-				MetaSound function <a href="https://dev.epicgames.com/documentation/unreal-engine/metasound-function-nodes-reference-guide-in-unreal-engine?lang=en-US" target="_blank">Reference Guide</a><Br/>
-				&nbsp; * [Crossfade] MS node<br/>
-				&nbsp; * [AD Envelope] MS node<br/>
-				&nbsp; * [Sine], [Saw], [Square] MS oscillator nodes<br/>
-				&nbsp; * [Wave Player] + [Mono Mixer] / [Stereo Mixer] MS nodes <br/>
+				
 				<br/>
 				Online Tutorials:<br/>				
 				&nbsp; * Unreal MetaSound Tutorial (Simple Graphic EQ): <a href="https://www.youtube.com/watch?v=I8XMhd4mjMs" target="_blank">https://www.youtube.com/watch?v=I8XMhd4mjMs</a><br/>
@@ -805,7 +800,38 @@
 		<div class="class">
 			<div id="date">Tuesday, 11/3</div>
 			<div id="content">
-				
+				Intro Music: (I Can't Get No) Satisfaction <a href="https://www.youtube.com/watch?v=nrIPxlFzDi0">Rolling Stones</a>, <a href="https://www.youtube.com/watch?v=jadvt7CbH1o">Devo</a><br/>
+				<br/>
+				Musical Remixing Games: <a href="https://www.dropmix.com/">Drop Mix</a> by <a href="https://www.harmonixmusic.com/">Harmonix</a>, (<a href="https://en.wikipedia.org/wiki/DropMix">Wikipedia</a>)<br/>
+				<a href="https://www.audicagame.com/#video">Audica</a> by Harmonix (<a href="https://store.steampowered.com/app/1020340/AUDICA_Rhythm_Shooter/">STEAM</a>)<br/>
+				<a href="https://steamcommunity.com/app/1331440">Fuser</a> by Harmonix(<a href="https://en.wikipedia.org/wiki/Fuser_(video_game)">Wikipedia</a>)<br/>
+				News Release: <a href="https://www.epicgames.com/site/en-US/news/harmonix-joins-epic-games-to-create-immersive-music-experiences?sessionInvalidated=true">Epic buys Harmonix</a> (2021)<br/>
+				<br/>
+				Gamelike Music Systems:<br/>
+				 - Reactable: <a href="https://www.youtube.com/watch?v=ByPJh-kJhRk">demo</a>, <a href="https://www.youtube.com/watch?v=jbq7Ji25Ieo">mobile</a><br/>
+				 - Auraglyph: <a href="https://ccrma.stanford.edu/~spencer/auraglyph/">demo</a><br/>
+				<br/>
+				MetaSounds Continued...<br/>				
+				<br/>
+				MetaSound function <a href="https://dev.epicgames.com/documentation/unreal-engine/metasound-function-nodes-reference-guide-in-unreal-engine?lang=en-US" target="_blank">Reference Guide</a><Br/>
+				&nbsp; * [Crossfade] MS node<br/>
+				&nbsp; * [AD Envelope] MS node<br/>
+				&nbsp; * [Sine], [Saw], [Square] MS oscillator nodes<br/>
+				&nbsp; * [Wave Player] + [Mono Mixer] / [Stereo Mixer] MS nodes <br/>
+				<br/>
+				- Metasounds UE5 Reference: <a href="https://docs.unrealengine.com/5.3/en-US/metasounds-reference-guide-in-unreal-engine/">https://docs.unrealengine.com/5.3/en-US/metasounds-reference-guide-in-unreal-engine/</a><br/>
+				<BR/>
+				Adding audio file cues in Reaper<br/>
+				- Reading audio file cues in Metasounds: <a href="https://www.youtube.com/watch?v=ZHPZoNFNlY8">https://www.youtube.com/watch?v=ZHPZoNFNlY8</a><br/>
+				--- or (simpler): <a href="https://www.youtube.com/watch?v=R4OvC9ekYso">https://www.youtube.com/watch?v=R4OvC9ekYso</a><br/>
+				<BR/>
+				Sending Metasound data back to Blueprint: <a href="https://www.youtube.com/watch?v=G_eK2LRJBDo">https://www.youtube.com/watch?v=G_eK2LRJBDo</a><br/>	
+				<BR/>
+				Footsteps via animation Blueprint (anim notify): <a href="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/Sequences/Notifies/">https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/Sequences/Notifies/</a><br/>
+				Dynamic footsteps via Ray Trace and Metasounds: <A HREF="https://www.youtube.com/watch?v=pYxocPdtHBw&t=930s">tutorial video</A><br/>
+				<br/>
+				Sound Cues: <a href="https://docs.unrealengine.com/5.3/en-US/sound-cues-in-unreal-engine/">https://docs.unrealengine.com/5.3/en-US/sound-cues-in-unreal-engine/</a><br/>
+				<br/>
 			</div>
 		</div>
 
@@ -839,7 +865,64 @@
 		<div class="class">
 			<div id="date">Tuesday, 11/17</div>
 			<div id="content">
+				UNREAL PROJECT #2 DUE:
+				<!--
+				<br/><br/>
+				<div style="border:1px solid #ccc; padding:10px; background-color: #DCDCDC">
+					<b>Assignment #2: Dynamic Audio Scene <em>(- DUE DATE, SUNDAY, NOVEMBER 17, 11:59:59 pm EST)</em></b>
+					<br/><br/>
+					This is a <b>solo project</b>, not a group project, so all work is expected to be yours alone. If you use assets (visual or sonic) or sample projects as source material, you must reference these in your documentation.
+					<br/><br/>
+					<u>DELIVERABLES</u>:<br/>
+					<ul><b/>Your working Game/Project</b>: Zip up your entire Unreal project folder and upload it to our Box drive</ul>
+					<ul><b>Written Description</b>: A detailed written overview of your project, highlighting the work you did and where/what elements in your scene fulfill the project requirements (listed below). Using this document I should be able to not only play your project but also understand where I can find your implementation of each project requirement.</ul>
+					<ul><b>Audio Call Sheet</b>: a detailed "call-sheet" list of all the sounds/assets/processes you will use/are using in the project, including variations. List file-names, extensions, durations, and any notes that would be helpful or useful to your programming team*.</ul>
+					<ul><b>Video Overview</b>: A short (< 5 min) video showcasing your game and the sound elements and interactions within it. This can be simple (i.e phone camera filming you play and talk through) or more polished (sizzle-reel/promo video, screen captures). Showcasing your video skills are not the primary goal here, describing your project is. <u>We'll show these in class</u>.</ul>
+					<br/>
+					<u>DETAILS</u>:
+					<br/>
+					This project represents your chance to showcase your understanding of the basic underlying principles of game sound and music within the Unreal Engine. Populate a simple Unreal scene using sound files downloaded from an online repository - or sound assets of your own creation (even better!). You can create an Unreal scene from scratch or use one of the many available Unreal project templates (displayed when you create a new Unreal project).				
+					<br/><br/>
+					
+					The success of your scene will revolve around whether or not your scene is sonically-coherent, i.e. all the sounds exist and belong in the same space. Coherence can be helped by creative use of reverberation in game, by careful editing of sounds in Audacity, or simply through artistic choices you make in your role as sound-designer.
+					<br/><br/>
 				
+					As always, the success of your scene will revolve around whether or not your scene feels coherent, i.e. all the sounds exist in the same space. Coherence can be helped by creative use of reverberation in game, by careful editing of sounds in Audacity, or simply through artistic choices you make in your role as sound-designer.
+					<br/><br/>
+					*NOTE* THIS DOCUMENT SHOULD HAVE YOUR NAME, THE DATE, THE NAME OF THIS CLASS AND THE TITLE OF YOUR PROJECT ON IT				
+					<br/>
+					<br/>
+					Please include examples of the following Unreal audio processes in your scene:<br/>
+					<br/>
+					<ul>
+						<dl>* Footsteps (for 1st and 3rd person scenes), or movement sounds (i.e. vehicle sounds) if you have a moving player/character</dl>
+						<dl>* Simple SoundWave Assets</dl>					
+						<dl>* Randomized Sound Cues or Metasound audio files</dl>
+						<dl>* Sound Assets and/or Metasounds with proximity volume attenuation</dl>
+						<dl>* Sound Assets and Metasounds triggered by Box or Sphere trigger volumes</dl>
+						<dl>* Sound Assets and Metasounds triggered by a keypress</dl>
+						<dl>* Sound Cues/Metasounds with one or more parameters driven by in-game action or events</dl>
+						<dl>* use of the Unreal Modular or Granular Synths</dl>
+						<dl>* EXTRA-CREDIT:Audio SoundClass, Submixes and Audio Submix Effects</dl>
+						<dl>* EXTRA-CREDIT: MIDI input, Open Sound Control output or input</dl> 
+						<dl>* EXTRA-CREDIT: Chunreal usage</dl> 
+					</ul>
+
+					<br/>
+					Please upload your entire project to the Box dropbox folder using the same naming conventions as Assignment #1, i.e:
+					<br/>
+					HOUSEKEEPING: box.rpi.edu file submission folder
+					<br/>
+					 - You all received an invitation to a shared "DMG Assignment Dropbox" Box folder.
+					 - zip up all your files into one .zip archive<br/>
+					 - use the following naming convention: "a" + assignment # + "_" + rcs username + ".zip" (e.g. "a1_hamilr4.zip")<br/>
+					 - if files are too crazy large, you can break your submission into multiple .zip archives. For example if you have 3 large .zip files, each would be titled as: "a2_hamilr4_1_of_3.zip", etc.<br/>				  
+					<br/>
+					<br/>
+					<em>* the programming team is a lie...</em>
+				</div>
+				<br/>
+			-->
 			</div>
 		</div>
 
@@ -856,14 +939,14 @@
 		<div class="class">
 			<div id="date">Tuesday, 11/24</div>
 			<div id="content">
-
+				NO CLASS (THANKSGIVING)
 			</div>
 		</div>
 
 		<div class="class" id="next">
 			<div id="date">Friday, 11/27</div>
 			<div id="content">
-
+				NO CLASS (THANKSGIVING)
 			</div>
 		</div>			
 	</div>	
@@ -873,14 +956,14 @@
 		<div class="class">
 			<div id="date">Tuesday, 12/1</div>
 			<div id="content">
-
+				
 			</div>
 		</div>
 
 		<div class="class" id="next">
 			<div id="date">Friday, 12/4</div>
 			<div id="content">
-				
+				PROJECT HACK DAY
 			</div>
 		</div>			
 	</div>	
@@ -890,14 +973,14 @@
 		<div class="class">
 			<div id="date">Tuesday, 12/8</div>
 			<div id="content">
-				
+				PROJECT HACK DAY
 			</div>
 		</div>
 
 		<div class="class" id="next">
 			<div id="date">Friday, 12/11</div>
 			<div id="content">
-				
+				FINAL CLASS PRESENTATIONS
 			</div>
 		</div>			
 	</div>	
@@ -911,8 +994,6 @@
 			</div>
 		</div>	
 	</div>	
-
-	-->
 </div>
 
 
@@ -1515,7 +1596,7 @@
 				<br/>
 				Sound Cues: <a href="https://docs.unrealengine.com/5.3/en-US/sound-cues-in-unreal-engine/">https://docs.unrealengine.com/5.3/en-US/sound-cues-in-unreal-engine/</a><br/>
 				<br/>
-				<!--
+				
 				Carillon article: <a href="http://blog.leapmotion.com/twist-gears-massive-vr-music-engine-carillon/">http://blog.leapmotion.com/twist-gears-massive-vr-music-engine-carillon/</a><br/>
 				Carillon: <a href="https://www.youtube.com/watch?v=N6Me8B7Wst8">https://www.youtube.com/watch?v=N6Me8B7Wst8</a><br/>
 				OSCCraft (Minecraft + Open Sound Control): <a href="https://github.com/robertkhamilton/osccraft">https://github.com/robertkhamilton/osccraft</a><br/>	
@@ -1639,7 +1720,7 @@
 				 - OSC in UE Overview: <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/osc-plugin-overview-for-unreal-engine">https://dev.epicgames.com/documentation/en-us/unreal-engine/osc-plugin-overview-for-unreal-engine</a><br/>
 				 - Old UE OSC posts: <a href="https://forums.unrealengine.com/t/simple-osc-output-input-examples-4-23-1/133224">https://forums.unrealengine.com/t/simple-osc-output-input-examples-4-23-1/133224</a><br/>
 				<br/>
-				<!--
+				
 				Zatoichi: The Blind Swordsman: <a href="https://www.imdb.com/title/tt0363226/">https://www.imdb.com/title/tt0363226/</a><br/>
 				<br/>
 				<br/>
